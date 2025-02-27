@@ -1,0 +1,145 @@
+{
+  "intents": [
+   
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name" , "who is this"],
+      "responses": ["I'm ChatBot!", "You can call me ChatBot.", "My name is ChatBot."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What is your age?", "Tell me your age"],
+      "responses": ["I am as old as the internet!", "I exist beyond time!", "Age doesn't apply to me."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "How's the weather today?", "Is it raining?"],
+      "responses": ["I can't check the weather, but you can use a weather app!", "I suggest checking a weather website."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?"],
+      "responses": ["I can't check the time right now, but your device can!", "Time is relative, but your clock can help!"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Tell me today's date.", "What day is it?"],
+      "responses": ["Check your device for the exact date!", "I suggest checking a calendar."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where am I?", "Can you tell me my location?", "Find my location"],
+      "responses": ["I can't access your location, but Google Maps can!", "Try using a map application for that."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I would tell you a construction joke, but I'm still working on it."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Give me some motivation", "I need inspiration"],
+      "responses": ["Believe in yourself!", "You are capable of amazing things!", "Stay strong and keep going!"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["What's the latest news?", "Tell me today's news", "Any updates?"],
+      "responses": ["I can't check live news, but you can visit a news website!", "Try checking a news app for the latest updates."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What should I eat?", "Suggest me a meal", "I'm hungry"],
+      "responses": ["How about some pasta?", "Maybe a healthy salad?", "Try making a sandwich!"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Who won the last match?", "Tell me sports updates", "What's the latest in sports?"],
+      "responses": ["Check a sports website for live updates!", "I suggest looking at a sports app for scores."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "Suggest a song", "I want to listen to music"],
+      "responses": ["Try listening to your favorite playlist!", "How about some classical music?"]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Recommend a movie", "What should I watch?", "Tell me a good movie"],
+      "responses": ["Try watching 'Inception'!", "How about a comedy film?", "Maybe a thriller?"]
+    },
+    {
+      "tag": "books",
+      "patterns": ["Recommend a book", "What book should I read?", "Tell me a good book"],
+      "responses": ["Try reading 'The Alchemist'!", "How about a mystery novel?", "Maybe a self-help book?"]
+    },
+    {
+      "tag": "math",
+      "patterns": ["Solve this math problem", "Can you do calculations?", "Help me with math"],
+      "responses": ["I can try! What’s the problem?", "I can assist with basic math!"]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["Define a word", "Give me a definition", "What does this word mean?"],
+      "responses": ["I can help! What word do you need defined?", "Try using an online dictionary."]
+    },
+    {
+      "tag": "language_translation",
+      "patterns": ["Translate this", "Can you translate?", "Help me with translation"],
+      "responses": ["I suggest using Google Translate!", "What language do you need?"]
+    },
+    {
+      "tag": "currency_conversion",
+      "patterns": ["Convert currency", "How much is this in USD?", "What’s the exchange rate?"],
+      "responses": ["Try a currency converter!", "I recommend using a financial website."]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": ["Give me health tips", "How to stay healthy?", "Suggest a healthy habit"],
+      "responses": ["Drink plenty of water!", "Exercise regularly!", "Eat nutritious food!"]
+    },
+    {
+      "tag": "fitness",
+      "patterns": ["Give me a workout routine", "How to lose weight?", "Suggest exercises"],
+      "responses": ["Try jogging daily!", "Strength training is great!", "Yoga can be helpful!"]
+    },
+    {
+      "tag": "sleep",
+      "patterns": ["How to sleep better?", "Give me sleep tips", "I can't sleep"],
+      "responses": ["Avoid screens before bed!", "Try a relaxing bedtime routine!", "Meditation might help!"]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["How to reduce stress?", "I feel stressed", "Give me relaxation tips"],
+      "responses": ["Try deep breathing!", "Take a short walk!", "Listen to calming music!"]
+    },
+    {
+      "tag": "relationships",
+      "patterns": ["How to make friends?", "Give me relationship advice", "How to be more social?"],
+      "responses": ["Be kind and listen!", "Engage in conversations!", "Join social activities!"]
+    },
+    {
+      "tag": "career",
+      "patterns": ["How to choose a career?", "Give me career advice", "Best career options?"],
+      "responses": ["Follow your passion!", "Consider job demand and skills!", "Explore different fields!"]
+    },
+    {
+      "tag": "education",
+      "patterns": ["What should I study?", "Best courses to take?", "How to improve learning?"],
+      "responses": ["Try online courses!", "Read daily!", "Practice what you learn!"]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What's new in tech?", "Tell me about AI", "Latest gadgets?"],
+      "responses": ["AI is evolving fast!", "Try reading tech blogs!", "Check out the latest smartphones!"]
+    },
+    {
+      "tag": "coding",
+      "patterns": ["How to learn programming?", "Best coding languages?", "Where to practice coding?"],
+      "responses": ["Start with Python!", "Practice on coding platforms!", "Build small projects!"]
+    }
+  ]
+}

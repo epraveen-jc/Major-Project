@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h2>Chatbot</h2>
+    <input id="msg" placeholder="Enter message">
+    <button onclick="sendMessage()">Send</button>
+    <p id="response"></p>
+    <p id="status"></p>
+
+    <script>
+        function sendMessage() {
+            const message = document.getElementById("msg").value;
+            fetch("http://127.0.0.1:5055/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: message })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.response) {
+                    document.getElementById("response").innerText = "Response: " + data.response;
+                    document.getElementById("status").innerText = "✔️ Reply received!";
+                } else {
+                    document.getElementById("response").innerText = "Error: " + (data.error || "Unknown error");
+                    document.getElementById("status").innerText = "❌ No reply received.";
+                }
+            })
+            .catch(err => {
+                document.getElementById("response").innerText = "Server error!";
+                document.getElementById("status").innerText = "❌ No reply received.";
+                console.error("Error:", err);
+            });
+        }
+    </script>
+</body>
+</html>
