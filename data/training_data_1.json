@@ -10,6 +10,7 @@
         "patterns": ["Bye", "Goodbye", "See you later"],
         "responses": ["Goodbye!", "See you later!", "Take care!"]
       }
+      
     ]
     
   }

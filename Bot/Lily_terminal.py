@@ -54,7 +54,7 @@ def predict():
 @app.route("/")
 def home():
     """Renders the web-based chatbot UI."""
-    return render_template("index.html")
+    return render_template("C:/Users/E Praveen Kumar/Desktop/chatbot_project/frontend/index.html")
 
 def terminal_chat():
     """Runs the chatbot in the terminal in a loop until the user exits."""
@@ -68,9 +68,5 @@ def terminal_chat():
         print(f"Chatbot: {response}")
 
 if __name__ == "__main__":
-    mode = input("Choose mode: 'web' or 'terminal': ").strip().lower()
-    if mode == "terminal":
         terminal_chat()
-    else:
-        print("\nStarting Web Server... Access at http://127.0.0.1:5055/\n")
-        app.run(host="0.0.0.0", port=5055, debug=True)
+    
