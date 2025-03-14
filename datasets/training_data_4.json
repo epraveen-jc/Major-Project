@@ -1,0 +1,334 @@
+{
+  "intents": [
+    {
+      "tag": "post_assault_medication",
+      "patterns": [
+        "What medication can I take after being raped?",
+        "Are there pills I should take after sexual assault?",
+        "What tablets should I get after being assaulted?",
+        "Do I need emergency contraception after rape?",
+        "What kind of medicine should I take after sexual abuse?",
+        "Is there medication to prevent pregnancy after assault?",
+        "What should I take after being sexually assaulted?",
+        "Are there tablets to prevent STIs after rape?",
+        "What medication options do I have after being attacked?",
+        "Can you tell me about pills after sexual assault?",
+        "What are my options for medication after being raped?",
+        "I was assaulted, what medicine should I take?",
+        "What pills are available after sexual abuse?",
+        "Do I need to take something after being assaulted?",
+        "What tablets are recommended after rape?",
+        "Is there emergency medication after sexual assault?",
+        "What medical options exist after being attacked?",
+        "Tell me about post-assault medication",
+        "What medication is advised after sexual violence?",
+        "What should I know about post-rape medication options?"
+      ],
+      "responses": [
+        "I'm truly sorry about what happened to you. There are important medications that can help after an assault, including emergency contraception (Plan B/morning-after pill) and post-exposure prophylaxis (PEP) for HIV prevention. These work best when taken as soon as possible - emergency contraception within 3-5 days and PEP within 72 hours. Please contact your nearest emergency room, sexual assault treatment center, or call a crisis hotline right away for proper care. They can provide these medications and other important services like evidence collection if you choose. You deserve support and care.",
+        
+        "I'm so sorry you're going through this. After a sexual assault, there are medication options that may be important: emergency contraception to prevent pregnancy (most effective within 3-5 days) and post-exposure prophylaxis (PEP) to prevent HIV (must start within 72 hours). The sooner you receive medical care, the more options you'll have. Please consider going to an emergency room, sexual assault treatment center, or calling a crisis hotline immediately. They can provide these medications along with compassionate care, testing for STIs, and evidence collection if you choose. Remember this wasn't your fault, and help is available."
+      ]
+    },
+    {
+      "tag": "emergency_contraception",
+      "patterns": [
+        "How do I prevent pregnancy after rape?",
+        "Do I need the morning after pill after assault?",
+        "Where can I get emergency contraception after being assaulted?",
+        "How long after assault can I take Plan B?",
+        "Is it too late to prevent pregnancy after rape?",
+        "What are my options to prevent pregnancy after sexual assault?",
+        "How effective is emergency contraception after assault?",
+        "Can I still take emergency contraception 3 days after assault?",
+        "What is Plan B and do I need it after sexual assault?",
+        "How to get morning after pill after being raped?",
+        "Is emergency contraception available without prescription after assault?",
+        "How many days do I have to take contraception after rape?",
+        "What should I know about emergency contraception after assault?",
+        "Will Plan B work if I was assaulted days ago?",
+        "Can I get emergency contraception for free after assault?",
+        "How soon should I take contraception after sexual violence?",
+        "Is there an age limit for emergency contraception after assault?",
+        "What happens if I don't take emergency contraception after assault?",
+        "Are there side effects of emergency contraception after rape?",
+        "Is Plan B the only option for preventing pregnancy after assault?"
+      ],
+      "responses": [
+        "Emergency contraception (EC) can prevent pregnancy after sexual assault and works best when taken as soon as possible. Plan B One-Step and similar pills are most effective within 72 hours (3 days), though some types work up to 5 days after assault. EC is available at emergency rooms, health clinics, pharmacies (often without prescription), and sexual assault treatment centers. Side effects are typically mild. Please seek medical care immediately as healthcare providers can offer the most appropriate option based on your situation and timing. Sexual assault treatment centers and ERs typically provide EC at no cost to survivors.",
+        
+        "After an assault, emergency contraception can help prevent pregnancy. The most common type (Plan B/morning-after pill) works best within 72 hours but may be effective up to 5 days. Ella (ulipristal acetate) is effective up to 5 days. These are available at emergency rooms, sexual assault centers, clinics, and pharmacies (Plan B is typically available without prescription). If more than 5 days have passed, please still consult a healthcare provider as other options may be available. Most ERs and assault treatment centers provide EC at no cost to survivors. The sooner you take it, the more effective it will be."
+      ]
+    },
+    {
+      "tag": "hiv_pep",
+      "patterns": [
+        "Can I prevent HIV after rape?",
+        "What is PEP after sexual assault?",
+        "How long do I have to take HIV medication after assault?",
+        "Is it too late to prevent HIV after sexual assault?",
+        "Where can I get PEP after being raped?",
+        "How effective is PEP after sexual violence?",
+        "What medication prevents HIV after assault?",
+        "How many hours do I have to start HIV prevention after rape?",
+        "Is PEP available after sexual assault?",
+        "Do I need to worry about HIV after being assaulted?",
+        "Can rape lead to HIV infection?",
+        "What is the timeframe for HIV prevention after assault?",
+        "How do I ask for PEP after sexual assault?",
+        "Is HIV medication effective 2 days after assault?",
+        "What happens if I don't take PEP after rape?",
+        "Are there side effects of HIV prevention medication?",
+        "How long do I take PEP medication after assault?",
+        "Will insurance cover HIV prevention after sexual assault?",
+        "Is PEP free for sexual assault survivors?",
+        "Should I take HIV medication after being assaulted?"
+      ],
+      "responses": [
+        "Post-Exposure Prophylaxis (PEP) can prevent HIV infection after sexual assault, but must be started within 72 hours (3 days) to be effective. It's a 28-day course of antiretroviral medications. The sooner you start, the more effective it is. PEP is available at emergency rooms, sexual assault treatment centers, and some urgent care facilities. For assault survivors, PEP is often provided at no cost, and assistance programs exist if needed. Please seek medical care immediately, even if you're unsure about your assault risk. Healthcare providers will assess your situation and recommend appropriate care.",
+        
+        "HIV prevention after assault requires Post-Exposure Prophylaxis (PEP), which must be started within 72 hours (3 days) after the assault. This medication significantly reduces the risk of HIV infection when taken as prescribed. PEP is a 28-day course of medications and is available at emergency rooms, sexual assault centers, and some HIV clinics. Side effects may include nausea, fatigue, and headaches, but these are typically manageable. Seeking care as soon as possible is crucial, as PEP becomes less effective with each passing hour. Most hospitals can provide PEP to assault survivors regardless of insurance status or ability to pay."
+      ]
+    },
+    {
+      "tag": "sti_prevention",
+      "patterns": [
+        "What about other STIs after sexual assault?",
+        "Do I need antibiotics after rape?",
+        "How to prevent STDs after sexual assault?",
+        "Should I get tested for STIs after being raped?",
+        "What medication prevents infections after assault?",
+        "When should I get STI testing after sexual violence?",
+        "Can they give me medicine to prevent STDs after assault?",
+        "What STIs am I at risk for after sexual assault?",
+        "How do I protect myself from infections after rape?",
+        "Are there preventative treatments for STIs after assault?",
+        "What medicines will they give me at the hospital for STIs after rape?",
+        "Do I need shots after sexual assault?",
+        "Can STIs be prevented after sexual violence?",
+        "When is it too late to prevent STIs after assault?",
+        "How soon do I need antibiotics after rape?",
+        "Will the ER give me medication for STIs after assault?",
+        "What STD medications should I ask for after assault?",
+        "Can I get prophylactic antibiotics after being assaulted?",
+        "How effective are STI preventative medications after rape?",
+        "Should I worry about hepatitis after sexual assault?"
+      ],
+      "responses": [
+        "After sexual assault, healthcare providers typically offer preventative antibiotics for common STIs like chlamydia, gonorrhea, and trichomoniasis. They may also provide vaccination or medication for hepatitis B and tetanus if needed. These preventative treatments work best when started soon after the assault. Additionally, a healthcare provider will likely recommend follow-up STI testing after 2 weeks and again after 3 months. Even if you receive preventative treatment, follow-up testing is important. Most emergency rooms and sexual assault treatment centers provide these medications at no cost to survivors.",
+        
+        "To help prevent STIs after sexual assault, healthcare providers can offer preventative antibiotics for bacterial infections like chlamydia and gonorrhea. They might also recommend hepatitis B and tetanus vaccines if your immunizations aren't current. These treatments are most effective when started soon after the assault, but can still be helpful within days. Even with preventative treatment, follow-up testing is important—typically at 2 weeks, 6 weeks, and 3 months after the assault. Most sexual assault treatment centers and ERs provide these medications at no cost. Please seek medical care as soon as possible for the most comprehensive prevention options."
+      ]
+    },
+    {
+      "tag": "pain_management",
+      "patterns": [
+        "What can I take for pain after sexual assault?",
+        "Are there medications for soreness after rape?",
+        "How to deal with physical pain after being assaulted?",
+        "What pain relievers are safe after sexual violence?",
+        "My body hurts after assault, what can I take?",
+        "Is it normal to be in pain after sexual assault?",
+        "What should I do about injuries from sexual assault?",
+        "Can I take painkillers after being raped?",
+        "How long will pain last after sexual assault?",
+        "What helps with discomfort after rape?",
+        "Are there prescription pain medications for assault survivors?",
+        "What about swelling and bruising after sexual assault?",
+        "How to manage pain from sexual trauma?",
+        "What medications help with physical trauma after assault?",
+        "Is ibuprofen okay after sexual assault?",
+        "What should I know about managing pain after rape?",
+        "How to treat physical injuries from sexual assault?",
+        "What's safe to take for soreness after being assaulted?",
+        "Should I go to the doctor for pain after assault?",
+        "How can I reduce physical discomfort after sexual violence?"
+      ],
+      "responses": [
+        "For pain management after sexual assault, over-the-counter medications like ibuprofen (Advil, Motrin) or acetaminophen (Tylenol) can help with soreness and discomfort. Applying ice packs (wrapped in cloth) to bruised areas for 15-20 minutes several times a day may reduce swelling. Warm baths with Epsom salts can also provide relief. However, please seek medical attention for severe pain, bleeding, or significant injuries. A healthcare provider can properly assess injuries, document them if you choose, and prescribe stronger pain relief if needed. Physical discomfort typically improves within days, but healing varies for each person.",
+        
+        "Physical pain after sexual assault should be taken seriously. For mild to moderate discomfort, over-the-counter pain relievers like ibuprofen or acetaminophen can help. For external injuries, gentle cleaning and antibiotic ointment can prevent infection. Ice packs (wrapped in cloth) can reduce swelling, while warm baths may soothe general soreness. However, it's strongly recommended to seek medical care even if injuries seem minor, as some injuries may not be immediately apparent. A healthcare provider can properly assess, treat, and document injuries if needed. If you experience severe pain, bleeding, difficulty walking or urinating, dizziness, or nausea, please seek emergency medical care immediately."
+      ]
+    },
+    {
+      "tag": "physical_examination",
+      "patterns": [
+        "What happens during a rape exam?",
+        "Do I have to get examined after sexual assault?",
+        "What is a sexual assault forensic exam like?",
+        "What does a rape kit involve?",
+        "Will the medical exam after assault be painful?",
+        "How long does a sexual assault examination take?",
+        "Can I refuse parts of the rape exam?",
+        "What should I expect during post-assault examination?",
+        "Should I shower before sexual assault examination?",
+        "What do they check for in a rape kit?",
+        "Can I bring someone with me for the sexual assault exam?",
+        "Is the examination after rape invasive?",
+        "What happens during the medical check after assault?",
+        "How do they collect evidence during a rape kit?",
+        "What are my rights during a sexual assault examination?",
+        "Will they take photos during the assault examination?",
+        "How to prepare for a sexual assault forensic exam?",
+        "Do I need to decide about police before getting examined?",
+        "What medical procedures happen after reporting rape?",
+        "How thorough is the medical exam after sexual assault?"
+      ],
+      "responses": [
+        "A sexual assault forensic exam (sometimes called a 'rape kit') is thorough but guided by your consent at each step. The exam typically includes a medical history, a head-to-toe examination documenting injuries, collection of evidence from your body and clothes, STI testing, and providing preventative medications. A specially trained nurse or doctor conducts this exam, which usually takes 3-4 hours. You can stop, pause, or skip any part of the exam. It's helpful to avoid showering, changing clothes, or brushing teeth before the exam if possible, but medical care is still beneficial even if you have. You can bring a supportive person with you, and many hospitals have advocates available. Getting an exam doesn't require you to report to police.",
+        
+        "The medical examination after sexual assault is completely voluntary and consent-based. A sexual assault nurse examiner (SANE) or other trained provider will explain each step and ask permission before proceeding. The exam typically includes: a private conversation about what happened (only medically relevant details), documentation of injuries, collection of evidence if within 120 hours (5 days) of the assault, STI testing, and preventative medications. While parts may be uncomfortable, the examiner will be gentle and respectful. You can request breaks, skip parts of the exam, or stop completely at any time. Evidence can be collected even if you're unsure about reporting to police, and can be stored while you decide. Many facilities have advocates who can stay with you during the exam for support."
+      ]
+    },
+    {
+      "tag": "medical_follow_up",
+      "patterns": [
+        "What follow-up care do I need after sexual assault?",
+        "When should I see a doctor again after rape?",
+        "Do I need follow-up testing after sexual assault?",
+        "What medical appointments should I schedule after assault?",
+        "How long should I follow up with a doctor after rape?",
+        "What ongoing medical care do assault survivors need?",
+        "Should I see a gynecologist after sexual assault?",
+        "What testing schedule should I follow after rape?",
+        "When do I need STI retesting after assault?",
+        "Do I need medical monitoring after sexual violence?",
+        "How often should I get checked after being assaulted?",
+        "What should I monitor for after sexual assault?",
+        "Will the hospital schedule follow-up after rape?",
+        "When should I get a pregnancy test after sexual assault?",
+        "Do I need blood work after being raped?",
+        "How many follow-up appointments will I need after assault?",
+        "What symptoms should I see a doctor for after sexual assault?",
+        "Is a follow-up examination necessary after rape?",
+        "What's the timeline for medical follow-up after assault?",
+        "What should I expect at follow-up appointments after sexual violence?"
+      ],
+      "responses": [
+        "Follow-up medical care after sexual assault is important for your health. A typical schedule includes: 1) A follow-up within 1-2 weeks to check on injuries and medication side effects, 2) STI testing at 2 weeks, 6 weeks, and 3 months after the assault, 3) A pregnancy test 2 weeks after assault if emergency contraception was used, 4) HIV testing at 6 weeks, 3 months, and 6 months if PEP was not taken. Additionally, seek immediate medical attention if you experience fever, increasing pain, unusual discharge, bleeding, or new symptoms. Many sexual assault treatment centers will help coordinate these follow-up appointments. If you're taking PEP for HIV prevention, you'll need monitoring for medication side effects throughout the 28-day course.",
+        
+        "Medical follow-up after sexual assault helps ensure your physical healing and addresses any developing health concerns. Generally recommended follow-up includes: checking healing of any injuries after 1-2 weeks, STI testing at 2-3 weeks and again at 3 months, pregnancy testing 2 weeks after the assault if relevant, and HIV testing at 6 weeks, 3 months, and sometimes 6 months. If you're taking PEP (HIV prevention medication), you'll need additional appointments to monitor for side effects and possibly blood tests to check organ function. Always seek immediate care if you develop symptoms like fever, unusual discharge, increasing pain, bleeding, or other concerning symptoms. Many sexual assault treatment centers offer follow-up care or can refer you to appropriate providers for ongoing care."
+      ]
+    },
+    {
+      "tag": "medication_side_effects",
+      "patterns": [
+        "What are the side effects of assault prevention medications?",
+        "Will emergency contraception make me sick after rape?",
+        "Do HIV prevention drugs have side effects after assault?",
+        "What should I expect from PEP side effects?",
+        "Are the morning after pill side effects severe after assault?",
+        "How will STI antibiotics affect me after rape?",
+        "What reactions might I have to post-assault medications?",
+        "Is it normal to feel ill from medications after sexual assault?",
+        "How to manage side effects from assault prevention drugs?",
+        "Will medications after rape affect my period?",
+        "Are PEP side effects dangerous after sexual assault?",
+        "What are common reactions to emergency contraception after rape?",
+        "How long do medication side effects last after assault?",
+        "What can I take for nausea from assault medications?",
+        "Should I stop taking medications if I get side effects after rape?",
+        "What are normal vs. concerning side effects from assault meds?",
+        "When should I call doctor about medication reactions after assault?",
+        "How to cope with feeling sick from post-assault medications?",
+        "Can assault medications interfere with other drugs I take?",
+        "What helps with PEP side effects after sexual assault?"
+      ],
+      "responses": [
+        "Medications provided after sexual assault can cause temporary side effects. Emergency contraception may cause nausea, fatigue, headaches, or changes to your next period. Anti-nausea medication can be provided if needed. PEP (HIV prevention) commonly causes fatigue, nausea, and headaches in the first week, which typically improve as treatment continues. STI prevention antibiotics may cause stomach upset or diarrhea. To manage side effects: take medications with food (unless instructed otherwise), stay hydrated, use over-the-counter pain relievers if approved by your provider, and get extra rest. Contact your healthcare provider if you experience severe nausea/vomiting, high fever, unusual pain, rash, or symptoms that prevent you from taking your medications. Don't stop taking prescribed medications without consulting your provider.",
+        
+        "Side effects from post-assault medications are common but usually manageable. Emergency contraception may cause nausea, breast tenderness, fatigue, headache, or changes to your next menstrual cycle. PEP (HIV prevention medication) often causes nausea, fatigue, headache, and sometimes diarrhea in the first 1-2 weeks. Antibiotics for STI prevention might cause stomach upset, diarrhea, or vaginal yeast infections. To minimize discomfort: take medications with food (unless directed otherwise), stay well-hydrated, rest when possible, and ask your provider about over-the-counter options for symptom relief. Contact your healthcare provider immediately if you develop severe vomiting, rash, fever, yellowing of skin/eyes, dark urine, or severe abdominal pain. These medications are important for your health, so don't discontinue them without medical consultation, even if experiencing side effects."
+      ]
+    },
+    {
+      "tag": "pregnancy_concerns",
+      "patterns": [
+        "How do I know if I'm pregnant after sexual assault?",
+        "When can I test for pregnancy after rape?",
+        "What if emergency contraception fails after assault?",
+        "What are my options if I get pregnant from rape?",
+        "How long after assault can I test for pregnancy?",
+        "What if Plan B doesn't work after sexual assault?",
+        "When will I know if I'm pregnant after being raped?",
+        "How reliable is emergency contraception after assault?",
+        "What should I do if pregnant from sexual violence?",
+        "How soon can pregnancy be detected after rape?",
+        "What pregnancy testing should I get after assault?",
+        "What if I miss my period after sexual assault?",
+        "How to deal with pregnancy fears after rape?",
+        "What are pregnancy symptoms after sexual assault?",
+        "Where can I get pregnancy support after assault?",
+        "What are pregnancy termination options after rape?",
+        "How effective is Plan B after sexual assault?",
+        "How soon after assault should I test for pregnancy?",
+        "What support exists for pregnancy from assault?",
+        "Can hospital check for pregnancy after rape?"
+      ],
+      "responses": [
+        "Pregnancy concerns after sexual assault are understandable. Emergency contraception is highly effective when taken promptly (up to 95% if taken within 24 hours), but no method is 100% guaranteed. The earliest you can reliably test for pregnancy is about 14 days after the assault or a few days after a missed period. Most home pregnancy tests are accurate by this time. If your period is more than a week late, or if you experience pregnancy symptoms (nausea, breast tenderness, fatigue), consider testing. If you discover you're pregnant, know that you have options and time to make decisions that are right for you. Healthcare providers, sexual assault centers, and reproductive health clinics can provide confidential support, information about all options, and referrals to appropriate services. Many sexual assault centers can connect you with compassionate counseling to help process your feelings and make informed decisions.",
+        
+        "After sexual assault, concerns about pregnancy are normal. While emergency contraception significantly reduces the risk of pregnancy (especially when taken within 72 hours), it's still important to follow up with pregnancy testing. A home pregnancy test can be accurate about 14 days after assault or around the time of your expected period. For the most accurate results, consider testing first thing in the morning. If your period is delayed by a week or more, or if you experience symptoms like nausea, breast tenderness, or unusual fatigue, testing is recommended. If you discover you're pregnant, remember you have time to consider all options, and there are resources to support you regardless of your decision. Sexual assault centers, women's health clinics, and reproductive health providers can offer confidential counseling, information, and referrals. Many areas have specialized advocates who can support survivors through pregnancy-related decisions after assault."
+      ]
+    },
+    {
+      "tag": "injury_treatment",
+      "patterns": [
+        "How to treat injuries from sexual assault?",
+        "What do I do about bleeding after rape?",
+        "What if I have internal injuries from sexual violence?",
+        "How to heal physical trauma after assault?",
+        "What treatment is available for injuries after rape?",
+        "How do I know if my injuries from assault need medical attention?",
+        "What helps bruising heal after sexual assault?",
+        "Should I be worried about tears or cuts after rape?",
+        "How to care for wounds from sexual violence?",
+        "What medical treatment will I need for assault injuries?",
+        "How long do physical injuries from rape take to heal?",
+        "Should I use creams or ointments on injuries after assault?",
+        "What can hospital do for injuries after sexual violence?",
+        "Are internal injuries common after sexual assault?",
+        "How to reduce swelling from assault injuries?",
+        "What if I'm still in pain days after sexual assault?",
+        "Will vaginal/anal tears from assault heal on their own?",
+        "What home care can I do for assault injuries?",
+        "When should I be concerned about healing after rape?",
+        "What if my injuries from assault aren't improving?"
+      ],
+      "responses": [
+        "It's important to have injuries from sexual assault evaluated by a healthcare provider, as some injuries may not be immediately obvious. For visible injuries: clean minor cuts with mild soap and water, apply antibiotic ointment to prevent infection, use cold packs (wrapped in cloth) for 15-20 minutes several times daily to reduce swelling and bruising, and take over-the-counter pain relievers like acetaminophen or ibuprofen for discomfort. Seek immediate medical attention for large wounds, heavy bleeding, severe pain, difficulty urinating or walking, dizziness, or any concern about internal injuries. Most minor cuts and tears heal within a week, while bruises may take 2-3 weeks. Follow-up care is important to ensure proper healing. If you notice increasing pain, swelling, unusual discharge, or signs of infection (redness, warmth, fever), seek medical care promptly.",
+        
+        "Healing from physical injuries after sexual assault requires both proper care and time. While minor external injuries can be managed with gentle cleaning, antibiotic ointment, and over-the-counter pain relievers, a medical evaluation is strongly recommended even if injuries seem minor. Healthcare providers can identify less obvious injuries and provide appropriate treatment. For genital or rectal injuries, sitz baths (sitting in warm, shallow water) can provide relief, and avoiding tampons, sexual activity, and tight clothing can help healing. Most minor genital/rectal tears heal within 1-2 weeks. For bruising, applying cold packs in the first 48 hours followed by warm compresses can speed healing. Warning signs that require immediate medical attention include: difficulty urinating or having bowel movements, fever, increasing rather than decreasing pain, heavy bleeding, foul-smelling discharge, or expanding redness around wounds. Follow any specific instructions provided by your healthcare provider."
+      ]
+    },
+    {
+      "tag": "medical_documentation",
+      "patterns": [
+        "Why is medical documentation important after assault?",
+        "Will the hospital document my injuries after rape?",
+        "Do I need medical records of sexual assault?",
+        "How is evidence documented during a rape exam?",
+        "What photos will they take during assault examination?",
+        "How long are medical records kept after sexual assault?",
+        "Can I get a copy of my rape kit results?",
+        "What happens to the documentation of my assault?",
+        "How to request medical records after sexual violence?",
+        "Who has access to my assault medical records?",
+        "Are medical records used in sexual assault cases?",
+        "What information is in assault medical documentation?",
+        "How detailed are rape exam records?",
+        "Will documentation help if I report assault later?",
+        "How are injuries documented after sexual violence?",
+        "What if I don't want medical documentation of assault?",
+        "How long should I keep medical records after rape?",
+        "Can medical documentation help in court after assault?",
+        "How to ensure proper documentation of sexual assault?",
+        "What evidence is collected in a sexual assault exam?"
+      ],
+      "responses": [
+        "Medical documentation after sexual assault creates a detailed record of your physical condition, injuries, and medical treatment. This documentation typically includes written descriptions, body maps marking injuries, and sometimes photographs (with your consent). This serves several important purposes: ensuring appropriate medical care, establishing a timeline of injuries and healing, and potentially providing evidence if you choose to report to law enforcement now or later. Medical records are kept confidential under privacy laws. Only you, your healthcare providers, and those you explicitly authorize can access them. Hospitals typically maintain these records for 7-10 years or longer, depending on location. You have the right to request copies of your medical records. If you might consider reporting to police in the future (even if not immediately), medical documentation can be valuable support for your case. However, receiving medical care doesn't obligate you to report the assault.",
+        
+        "Medical documentation after sexual assault creates an objective record of your injuries, treatment received, and evidence collected. Healthcare providers document injuries through written descriptions, diagrams, and photographs (only with your explicit consent). This documentation is important for your medical care and can be valuable if you decide to make a police report, even if that decision comes later. Evidence collected during an exam can include DNA samples, clothing, photographs of injuries, and detailed descriptions of findings. This information is kept confidential under medical privacy laws. You control who has access to these records beyond your healthcare providers. Many jurisdictions now preserve evidence even if you're undecided about reporting, allowing time to make that decision. If you're concerned about privacy, ask the facility about their documentation policies, including how records are stored, who can access them, and how you can obtain copies. Remember that you can receive medical care even if you decline evidence collection or documentation."
+      ]
+    }
+  ]
+}

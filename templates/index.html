@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #9c3799, #6deeea);
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .status-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .led {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgb(255, 0, 0);
+            animation: blink-red 1s infinite;
+        }
+
+        .green {
+            background-color: #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 1);
+            animation: blink-green 1s infinite;
+        }
+
+        .orange {
+            background-color: #ff8800;
+            box-shadow: 0 0 15px rgba(255, 136, 0, 1);
+            animation: blink-orange 1s infinite;
+        }
+        @keyframes blink-green {
+            0% { background-color: #4dff00; box-shadow: 0 0 15px rgba(111, 255, 0, 0.866); }
+            50% { background-color: #fff704; box-shadow: 0 0 5px rgb(172, 225, 0); }
+            100% { background-color: #37ff00; box-shadow: 0 0 15px rgb(89, 255, 0); }
+        }
+
+        @keyframes blink-red {
+            0% { background-color: #ff0000; box-shadow: 0 0 15px rgba(255, 0, 0, 0.866); }
+            50% { background-color: #852d2d; box-shadow: 0 0 5px rgba(255, 0, 0, 0.738); }
+            100% { background-color: #ff0000; box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); }
+        }
+
+        @keyframes blink-orange {
+            0% { background-color: #ff8800; box-shadow: 0 0 15px rgba(255, 136, 0, 1); }
+            50% { background-color: #bb6600; box-shadow: 0 0 5px rgba(255, 136, 0, 0.5); }
+            100% { background-color: #ff8800; box-shadow: 0 0 15px rgba(255, 136, 0, 1); }
+        }
+
+        .chat-container {
+            width: 520px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid rgba(47, 242, 219, 0.393);
+        }
+
+        .chat-box {
+            height: 400px;
+            overflow-y: auto;
+            padding: 15px;
+            background: rgba(204, 32, 223, 0.1);
+            border-radius: 15px;
+            margin: 15px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message {
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            max-width: 75%;
+            word-wrap: break-word;
+            display: inline-block;
+        }
+
+        .user-message {
+            background: #539bec;
+            color: white;
+            align-self: flex-end;
+            text-align: right;
+            margin-left: auto;
+        }
+
+        .bot-message {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            align-self: flex-start;
+            text-align: left;
+            margin-right: auto;
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+            font-size: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            color: rgb(0, 0, 0);
+            transition: 0.3s;
+        }
+
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        input:focus {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        button {
+            padding: 12px 15px;
+            border: none;
+            border-radius: 50px;
+            background: #4A90E2;
+            color: white;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #35bdb6;
+            transform: scale(1.05);
+        }
+
+        .search-ipc-button {
+            background: #9c3799;
+        }
+
+        .search-ipc-button:hover {
+            background: #7a2c6e;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .overlay iframe {
+            width: 80%;
+            height: 80%;
+            border: none;
+            border-radius: 20px;
+            transform: scale(0.9);
+            opacity: 0;
+            transition: transform 0.5s, opacity 0.5s;
+        }
+
+        .overlay.active iframe {
+            transform: scale(1);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="status-container">
+        <div id="status-led" class="led"></div>
+        <span id="status-text">Checking server...</span>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">Chatbot</div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">➤</button>
+            <button class="search-ipc-button" onclick="openIPC()">IPC</button>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <iframe src="" id="ipc-iframe"></iframe>
+    </div>
+
+    <script>
+        async function checkServerStatus() {
+            try {
+                const response = await fetch("http://127.0.0.1:5000/");
+                if (response.ok) {
+                    document.getElementById("status-led").className = "led green";
+                    document.getElementById("status-text").innerText = "ML MODEL Connected";
+                } else {
+                    document.getElementById("status-led").className = "led orange";
+                    document.getElementById("status-text").innerText = "Server Starting...";
+                }
+            } catch (error) {
+                document.getElementById("status-led").className = "led";
+                document.getElementById("status-text").innerText = "Server Not Connected!";
+            }
+        }
+
+        setInterval(checkServerStatus,1000); // Check server every 2 seconds
+
+        async function sendMessage() {
+            const userInput = document.getElementById("user-input").value;
+            if (!userInput) return;
+
+            displayMessage(userInput, "user-message");
+            document.getElementById("user-input").value = "";
+
+            const response = await fetch("http://127.0.0.1:5000/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userInput })
+            });
+            
+            const data = await response.json();
+            displayMessage(data.response, "bot-message");
+        }
+
+        function displayMessage(message, className) {
+            const chatBox = document.getElementById("chat-box");
+            const messageElement = document.createElement("div");
+            messageElement.className = `message ${className}`;
+            messageElement.textContent = message;
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        }
+
+        function openIPC() {
+    const filePath = "C:\\Users\\E Praveen Kumar\\Desktop\\ChatBot_Pro\\templates\\ipc.html";
+    const fileUrl = "file:///" + filePath.replace(/\\/g, "/"); // Convert Windows path to file URL format
+    window.open(fileUrl, "_blank"); // Open in a new tab
+}
+
+
+        document.getElementById("overlay").addEventListener("click", function(event) {
+            if (event.target === this) {
+                this.classList.remove("active");
+            }
+        });
+    </script>
+</body>
+</html>

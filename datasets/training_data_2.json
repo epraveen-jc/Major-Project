@@ -1,0 +1,1541 @@
+{
+  "intents": [
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "who is this"
+      ],
+      "responses": [
+        "I'm ChatBot!",
+        "You can call me ChatBot.",
+        "My name is ChatBot."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "Tell me your age"
+      ],
+      "responses": [
+        "I am as old as the internet!",
+        "I exist beyond time!",
+        "Age doesn't apply to me."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather today?",
+        "Is it raining?"
+      ],
+      "responses": [
+        "I can't check the weather, but you can use a weather app!",
+        "I suggest checking a weather website."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What's the current time?"
+      ],
+      "responses": [
+        "I can't check the time right now, but your device can!",
+        "Time is relative, but your clock can help!"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's the date today?",
+        "Tell me today's date.",
+        "What day is it?"
+      ],
+      "responses": [
+        "Check your device for the exact date!",
+        "I suggest checking a calendar."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where am I?",
+        "Can you tell me my location?",
+        "Find my location"
+      ],
+      "responses": [
+        "I can't access your location, but Google Maps can!",
+        "Try using a map application for that."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I would tell you a construction joke, but I'm still working on it."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "Give me some motivation",
+        "I need inspiration"
+      ],
+      "responses": [
+        "Believe in yourself!",
+        "You are capable of amazing things!",
+        "Stay strong and keep going!"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?",
+        "Tell me today's news",
+        "Any updates?"
+      ],
+      "responses": [
+        "I can't check live news, but you can visit a news website!",
+        "Try checking a news app for the latest updates."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What should I eat?",
+        "Suggest me a meal",
+        "I'm hungry"
+      ],
+      "responses": [
+        "How about some pasta?",
+        "Maybe a healthy salad?",
+        "Try making a sandwich!"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Who won the last match?",
+        "Tell me sports updates",
+        "What's the latest in sports?"
+      ],
+      "responses": [
+        "Check a sports website for live updates!",
+        "I suggest looking at a sports app for scores."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Play some music",
+        "Suggest a song",
+        "I want to listen to music"
+      ],
+      "responses": [
+        "Try listening to your favorite playlist!",
+        "How about some classical music?"
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "Recommend a movie",
+        "What should I watch?",
+        "Tell me a good movie"
+      ],
+      "responses": [
+        "Try watching 'Inception'!",
+        "How about a comedy film , do watch Bhrahmotsavam movie....",
+        "Maybe a thriller? Do Watch The Movie Called Split...."
+      ]
+    },
+    {
+      "tag": "books",
+      "patterns": [
+        "Recommend a book",
+        "What book should I read?",
+        "Tell me a good book"
+      ],
+      "responses": [
+        "Try reading 'The Alchemist'!",
+        "How about a mystery novel...\"read how to become software engineer in one day\" ....!",
+        "Maybe a self-help book..Bible or Your Religion based book"
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "Solve this math problem",
+        "Can you do calculations?",
+        "Help me with math"
+      ],
+      "responses": [
+        "I can try! What’s the problem?",
+        "I can assist with basic math!"
+      ]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "Define a word",
+        "Give me a definition",
+        "What does this word mean?"
+      ],
+      "responses": [
+        "I can help! What word do you need defined?",
+        "Try using an online dictionary."
+      ]
+    },
+    {
+      "tag": "language_translation",
+      "patterns": [
+        "Translate this",
+        "Can you translate?",
+        "Help me with translation"
+      ],
+      "responses": [
+        "I suggest using Google Translate!",
+        "What language do you need?"
+      ]
+    },
+    {
+      "tag": "currency_conversion",
+      "patterns": [
+        "Convert currency",
+        "How much is this in USD?",
+        "What’s the exchange rate?"
+      ],
+      "responses": [
+        "Try a currency converter!",
+        "I recommend using a financial website."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Give me health tips",
+        "How to stay healthy?",
+        "Suggest a healthy habit"
+      ],
+      "responses": [
+        "Drink plenty of water!",
+        "Exercise regularly!",
+        "Eat nutritious food!"
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "Give me a workout routine",
+        "How to lose weight?",
+        "Suggest exercises"
+      ],
+      "responses": [
+        "Try jogging daily!",
+        "Strength training is great!",
+        "Yoga can be helpful!"
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How to sleep better?",
+        "Give me sleep tips",
+        "I can't sleep"
+      ],
+      "responses": [
+        "Avoid screens before bed!",
+        "Try a relaxing bedtime routine!",
+        "Meditation might help!"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "How to reduce stress?",
+        "I feel stressed",
+        "Give me relaxation tips"
+      ],
+      "responses": [
+        "Try deep breathing!",
+        "Take a short walk!",
+        "Listen to calming music!"
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": [
+        "How to make friends?",
+        "Give me relationship advice",
+        "How to be more social?"
+      ],
+      "responses": [
+        "Be kind and listen!",
+        "Engage in conversations!",
+        "Join social activities!"
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "How to choose a career?",
+        "Give me career advice",
+        "Best career options?"
+      ],
+      "responses": [
+        "Follow your passion!",
+        "Consider job demand and skills!",
+        "Explore different fields!"
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What should I study?",
+        "Best courses to take?",
+        "How to improve learning?"
+      ],
+      "responses": [
+        "Try online courses!",
+        "Read daily!",
+        "Practice what you learn!"
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What's new in tech?",
+        "Tell me about AI",
+        "Latest gadgets?"
+      ],
+      "responses": [
+        "AI is evolving fast!",
+        "Try reading tech blogs!",
+        "Check out the latest smartphones!"
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "How to learn programming?",
+        "Best coding languages?",
+        "Where to practice coding?"
+      ],
+      "responses": [
+        "Start with Python!",
+        "Practice on coding platforms!",
+        "Build small projects!"
+      ]
+    },
+   
+    {
+      "tag": "confidentiality",
+      "patterns": [
+        "Is this confidential",
+        "Will you share my information",
+        "Who can see what I type",
+        "Is this private",
+        "Can others see our conversation",
+        "How private is this chat",
+        "Will my family know I talked to you",
+        "Is this anonymous",
+        "Will my identity be protected",
+        "Can someone track this conversation",
+        "Is it safe to talk here",
+        "Can I trust this service",
+        "Who has access to these chats",
+        "Are my details secure",
+        "Will police know I contacted you",
+        "Is this conversation recorded",
+        "Can my abuser find out I'm talking to you",
+        "How do you protect my privacy",
+        "Can I speak freely here",
+        "Will this be used against me"
+      ],
+      "responses": [
+        "This conversation is confidential. Your personal details are protected under Indian data privacy laws.",
+        "Your privacy is important. This chat is secure and encrypted. I don't store personally identifying information.",
+        "You can speak freely here. This service follows strict confidentiality protocols in accordance with Indian law.",
+        "Your information remains private. We only break confidentiality if there's an immediate danger to life, as required by law.",
+        "This is a safe space. Your identity and conversation details are protected unless mandatory reporting laws require disclosure for your safety."
+      ]
+    },
+    {
+      "tag": "immediate_danger",
+      "patterns": [
+        "I'm in danger right now",
+        "He's threatening me now",
+        "She's going to hurt me",
+        "I need immediate help",
+        "I'm afraid for my life",
+        "My abuser is in the house",
+        "I think they're coming back",
+        "I need police now",
+        "I need emergency help",
+        "They said they would kill me",
+        "I'm hiding now",
+        "I'm scared they'll find me",
+        "What do I do right now",
+        "They're banging on my door",
+        "I need to escape",
+        "Help me please it's urgent",
+        "I think I'm being followed",
+        "They have a weapon",
+        "I'm trapped with my abuser",
+        "I can't get away safely"
+      ],
+      "responses": [
+        "Your safety is the priority. Call India's emergency number 112 immediately. If you can't talk, try to text 112 where available.",
+        "If you're in immediate danger, please contact emergency services at 112 right away. Try to get to a safe location if possible.",
+        "Please call the Women's Helpline at 1098 or the National Emergency Number 112 immediately. They can dispatch police to your location.",
+        "This is an emergency situation. Please call 112 or the Women's Helpline 1098 right away. If possible, go to a neighbor or public place.",
+        "Your safety comes first. Contact emergency services at 112 now. If possible, try to leave safely and go to a trusted location or police station."
+      ]
+    },
+    {
+      "tag": "reporting_options",
+      "patterns": [
+        "How do I report abuse",
+        "Can I file a police report",
+        "How to file an FIR",
+        "Where should I report sexual assault",
+        "Can I report anonymously",
+        "How to report domestic violence",
+        "What's the process to file a complaint",
+        "Do I need evidence to report",
+        "Will police take my complaint seriously",
+        "Can I report an old incident",
+        "How do I report abuse from years ago",
+        "I want to report my husband",
+        "I want to report my boss",
+        "Can I report if I'm a man",
+        "Can I report abuse if I'm not a citizen",
+        "Will they arrest the person immediately",
+        "What happens after filing a report",
+        "Can someone help me report",
+        "Can I report online",
+        "I'm scared to go to the police"
+      ],
+      "responses": [
+        "In India, you can file an FIR (First Information Report) at any police station for sexual abuse. You have the right to have it recorded under Section 154 of CrPC.",
+        "You can report to the nearest police station or call the Women's Helpline at 1098. For sexual harassment at work, you can approach your workplace Internal Complaints Committee.",
+        "Under Indian law, police must register your sexual violence complaint. If they refuse, you can approach the Superintendent of Police or file a complaint with the magistrate under Section 156(3) CrPC.",
+        "You can file a complaint at any police station regardless of where the crime occurred. If you face resistance, contact the District Legal Services Authority for free legal assistance.",
+        "Reports can be filed at police stations, women's cells, or through the online portal of the National Commission for Women. You have the right to give your statement to a female officer in private."
+      ]
+    },
+    {
+      "tag": "legal_rights",
+      "patterns": [
+        "What are my legal rights",
+        "What protection does the law offer",
+        "What does Indian law say about sexual assault",
+        "What laws protect me",
+        "What are the laws against domestic violence",
+        "Can I get a restraining order",
+        "What is POCSO Act",
+        "What is Section 375",
+        "What is the Domestic Violence Act",
+        "Do I have legal rights if I'm not married",
+        "What rights do I have at work",
+        "Can I get compensation",
+        "How does the law protect sexual abuse victims",
+        "What evidence do I need legally",
+        "Can they force me to mediate with my abuser",
+        "What if the police don't help",
+        "What are my rights during investigation",
+        "Do I need a lawyer",
+        "Can I withdraw my complaint",
+        "What if I'm threatened to withdraw my case"
+      ],
+      "responses": [
+        "Indian law protects you through the Sexual Harassment of Women at Workplace Act 2013, Protection of Children from Sexual Offences Act (POCSO), and Section 375-376 of IPC for rape cases.",
+        "The Protection of Women from Domestic Violence Act 2005 offers civil remedies including protection orders, residence orders, and maintenance. Criminal remedies exist under IPC Sections 498A, 304B, and 306.",
+        "You have the right to free legal aid, privacy during proceedings, medical examination by a female doctor, protection from the accused, and compensation under various victim compensation schemes.",
+        "Under Indian law, you can seek a protection order preventing the abuser from contacting you. The Domestic Violence Act allows for residence orders, custody orders, and maintenance orders.",
+        "The Criminal Law Amendment Act 2013 expanded the definition of sexual offenses. You have the right to file a Zero FIR at any police station regardless of jurisdiction, and to give your statement to a female officer."
+      ]
+    },
+    {
+      "tag": "domestic_violence",
+      "patterns": [
+        "My husband beats me",
+        "My partner is abusive",
+        "I'm experiencing domestic violence",
+        "My spouse threatens me",
+        "Is it domestic violence if there are no bruises",
+        "He controls all my money",
+        "She won't let me see my family",
+        "My partner threatens to hurt our children",
+        "Is emotional abuse domestic violence",
+        "Can in-laws be charged with domestic violence",
+        "My spouse checks my phone and controls me",
+        "I'm not allowed to work or leave home",
+        "They threaten to hurt themselves if I leave",
+        "I'm afraid to leave my marriage",
+        "Can I get custody of my children if I leave",
+        "Will I lose my home if I report domestic violence",
+        "Is forced sex in marriage illegal",
+        "My partner insults and humiliates me daily",
+        "They threaten to deport me if I report abuse",
+        "Can I get maintenance if I leave my abusive husband"
+      ],
+      "responses": [
+        "Domestic violence in India includes physical, sexual, verbal, emotional, and economic abuse. The Protection of Women from Domestic Violence Act 2005 covers married women, live-in partners, and family members.",
+        "You can file a complaint under the Domestic Violence Act to get protection orders, residence orders, custody orders, and financial relief. You don't need visible injuries to prove domestic violence.",
+        "Under Indian law, your in-laws can be charged if they participate in domestic violence. You can approach the police, protection officers, or service providers authorized under the DV Act for help.",
+        "Marital rape currently has limited recognition under Indian law, but sexual violence within marriage can be addressed under the Domestic Violence Act. You can seek protection regardless.",
+        "You have the right to safe shelter. One-Stop Centers across India provide temporary accommodation, legal aid, medical assistance, and counseling for survivors of domestic violence."
+      ]
+    },
+    {
+      "tag": "sexual_harassment_workplace",
+      "patterns": [
+        "My boss touches me inappropriately",
+        "Colleagues make sexual comments",
+        "I'm being harassed at work",
+        "My supervisor asks for sexual favors",
+        "What is the Vishaka Guidelines",
+        "How to report workplace harassment",
+        "I'm afraid I'll lose my job if I report",
+        "My company has no harassment committee",
+        "What is the POSH Act",
+        "Can I report old incidents of workplace harassment",
+        "My HR isn't taking my complaint seriously",
+        "What evidence do I need for workplace harassment",
+        "Male colleagues send inappropriate messages",
+        "Can men file workplace harassment complaints",
+        "My manager retaliates when I refuse advances",
+        "Clients are harassing me at work",
+        "There's inappropriate touching at office events",
+        "Boss threatens my career if I don't comply",
+        "Coworkers share explicit material",
+        "My workplace isn't safe for women"
+      ],
+      "responses": [
+        "The Sexual Harassment of Women at Workplace Act 2013 (POSH Act) protects you. Your workplace must have an Internal Complaints Committee (ICC) to address such complaints.",
+        "You can file a complaint with your workplace ICC within 3 months of the incident. If no ICC exists, or you're not satisfied, you can approach the Local Complaints Committee in your district.",
+        "Workplace sexual harassment includes unwelcome touching, sexual remarks, showing pornography, sexual demands, and any other unwelcome physical, verbal or non-verbal conduct of a sexual nature.",
+        "Your employer cannot legally dismiss you for filing a harassment complaint. Such retaliation is prohibited under the POSH Act and can be included in your complaint.",
+        "If your organization doesn't have an ICC, they're violating the POSH Act. You can report this to the Local Complaints Committee or file a complaint with the appropriate government authority."
+      ]
+    },
+    {
+      "tag": "child_sexual_abuse",
+      "patterns": [
+        "My child was abused",
+        "I was abused as a child",
+        "How to report child sexual abuse",
+        "What is POCSO Act",
+        "Someone touched my child inappropriately",
+        "My child is showing signs of abuse",
+        "A teacher is behaving inappropriately with students",
+        "I suspect my child is being abused",
+        "Can a child testify in court",
+        "My relative abused my child",
+        "How to talk to a child about abuse",
+        "Child abuse by family member",
+        "Child abuse in school",
+        "What happens to child abusers",
+        "Signs of child sexual abuse",
+        "How to protect children from abuse",
+        "Child grooming warning signs",
+        "Online child abuse",
+        "Child sent explicit images online",
+        "Reporting historic child abuse"
+      ],
+      "responses": [
+        "The Protection of Children from Sexual Offences (POCSO) Act 2012 is comprehensive legislation protecting children under 18 from sexual abuse. Report immediately to the nearest police station or CHILDLINE at 1098.",
+        "Under POCSO, mandatory reporting is required by anyone who suspects child abuse. Special courts and procedures exist to make the process child-friendly and minimize trauma.",
+        "Signs of child abuse may include behavioral changes, fear, inappropriate sexual knowledge, physical symptoms, or changes in eating/sleeping patterns. Professional help is crucial for recovery.",
+        "When reporting under POCSO, the child's identity is protected by law. The child has the right to be interviewed in a comfortable environment by trained professionals.",
+        "POCSO cases are handled by special courts with child-friendly procedures. The child need not face the accused, and statements can be recorded via video conferencing with assistance from support persons."
+      ]
+    },
+    {
+      "tag": "rape_sexual_assault",
+      "patterns": [
+        "I was raped",
+        "I was sexually assaulted",
+        "I was forced to have sex",
+        "Someone took advantage of me when I was drunk",
+        "I was drugged and assaulted",
+        "My date forced himself on me",
+        "I didn't consent but was afraid to say no",
+        "I was unconscious during the assault",
+        "What should I do after sexual assault",
+        "Can I report a rape from years ago",
+        "What is the legal definition of rape in India",
+        "I need a medical examination after assault",
+        "I was assaulted by someone I know",
+        "I'm a man who was sexually assaulted",
+        "I was assaulted by a group",
+        "I was blackmailed into sexual acts",
+        "I froze during the assault",
+        "I didn't fight back, is it still rape",
+        "I was assaulted by my spouse",
+        "I need emergency contraception after assault"
+      ],
+      "responses": [
+        "Under Indian law, rape and sexual assault are defined in Section 375 and 376 of the IPC. You have the right to medical care, legal support, and confidentiality after an assault.",
+        "After a sexual assault, try to reach a safe place, call a trusted person, and seek medical attention. You can preserve evidence by not bathing, and request a medical examination which is important for legal proceedings.",
+        "You can report sexual assault at any time, though earlier reporting helps with evidence collection. A rape kit examination should ideally be done within 72 hours, but medical care is always available regardless of when you report.",
+        "In India, you have the right to have your statement recorded by a female officer in private. Medical examination should be conducted by a female doctor with your consent.",
+        "Sexual assault is never your fault, regardless of what you were wearing, if you were intoxicated, or your relationship with the perpetrator. Indian law recognizes that consent must be explicit and freely given."
+      ]
+    },
+    {
+      "tag": "medical_help",
+      "patterns": [
+        "Do I need medical help after assault",
+        "Where can I get a medical examination",
+        "Can I get tested for STDs",
+        "I need emergency contraception",
+        "Will the doctor report to police",
+        "Can I get free medical help",
+        "I'm injured from the assault",
+        "I'm pregnant from rape",
+        "Do hospitals have rape kits",
+        "What happens during a medical exam after assault",
+        "I need medical attention but am scared",
+        "How long after assault can evidence be collected",
+        "Can I bring someone with me to the hospital",
+        "Will my parents know if I seek medical help",
+        "I can't afford medical care",
+        "I need medication after assault",
+        "What medical documentation do I need",
+        "Can hospital staff help me report",
+        "I didn't see a doctor right away",
+        "Forensic examination process"
+      ],
+      "responses": [
+        "Medical care after sexual assault is crucial for your health and can help document evidence. Government hospitals in India are required to provide free medical treatment to survivors under Section 357C of CrPC.",
+        "A medical examination ideally should be conducted within 72 hours of assault, but it's beneficial even later. Under Indian law, doctors must provide immediate first-aid treatment to survivors.",
+        "The medical examination process includes treatment of injuries, STI testing, pregnancy prevention, documentation of evidence, and psychological support. You can have a support person present.",
+        "In India, doctors are mandated to report sexual assault cases to police, but they must prioritize your medical care. Your consent is required for the examination, and you can refuse any part of it.",
+        "One-Stop Centers in many districts provide integrated services including medical care, police assistance, legal aid, and counseling under one roof for survivors of sexual violence."
+      ]
+    },
+    {
+      "tag": "trauma_coping",
+      "patterns": [
+        "I can't sleep after the assault",
+        "I feel dirty all the time",
+        "I keep having flashbacks",
+        "I blame myself for what happened",
+        "I'm having panic attacks",
+        "I can't stop thinking about it",
+        "I don't want to leave my house",
+        "I'm afraid all the time now",
+        "I feel numb since it happened",
+        "I'm having nightmares",
+        "Will I ever feel normal again",
+        "I can't concentrate or function",
+        "I feel ashamed about what happened",
+        "I'm angry all the time",
+        "I don't trust anyone anymore",
+        "I'm using alcohol to cope",
+        "I've thought about hurting myself",
+        "I can't bear being touched now",
+        "How long will this trauma last",
+        "I feel like I'm going crazy"
+      ],
+      "responses": [
+        "What you're experiencing—flashbacks, fear, sleep problems—are normal responses to trauma. They don't mean you're weak or 'going crazy.' Professional support can help you process these reactions.",
+        "Trauma affects everyone differently. Remember that your feelings are valid, and recovery happens at your own pace. Professional counseling specifically for trauma can be very effective.",
+        "Self-care is important for trauma recovery. Try establishing routines, practicing grounding techniques, connecting with supportive people, and being patient with yourself through the healing process.",
+        "Many survivors experience similar feelings. Professional trauma-focused therapy like Cognitive Behavioral Therapy (CBT) or Eye Movement Desensitization and Reprocessing (EMDR) can significantly help recovery.",
+        "What happened was not your fault. Feelings of shame and self-blame are common after trauma but don't reflect reality. Speaking with a trauma-informed counselor can help address these feelings."
+      ]
+    },
+    {
+      "tag": "support_services",
+      "patterns": [
+        "Where can I get help",
+        "Are there support groups",
+        "I need a counselor",
+        "Free therapy services",
+        "Women's shelters near me",
+        "I need legal aid",
+        "Crisis centers in India",
+        "I need a safe place to stay",
+        "Support for male victims",
+        "LGBTQ friendly support services",
+        "Do you have a helpline number",
+        "One Stop Crisis Centers",
+        "NGOs for abuse victims",
+        "Government schemes for survivors",
+        "Can I get financial support",
+        "Support services in rural areas",
+        "Victim compensation scheme",
+        "Support in my language",
+        "I can't afford therapy",
+        "Rehabilitation services"
+      ],
+      "responses": [
+        "In India, you can call the Women's Helpline at 1098, National Commission for Women at 011-26942369, or CHILDLINE at 1098. One-Stop Centers in many districts provide comprehensive support.",
+        "Free counseling services are available through government hospitals, One-Stop Centers, and NGOs like SNEHA (Mumbai), CEHAT, Majlis, and Shakti Shalini. Many offer remote counseling options.",
+        "For safe shelter, you can approach One-Stop Centers, Swadhar Greh scheme shelters, or NGO-run shelters. The Women's Helpline can connect you with the nearest safe accommodation.",
+        "Legal aid is available free of charge through District Legal Services Authorities (DLSA) and specialized NGOs. You're entitled to free legal representation regardless of income under the Legal Services Authorities Act.",
+        "The Compensation Scheme for Women Victims/Survivors of Sexual Assault/Other Crimes provides financial support. Apply through the District Legal Services Authority or the court handling your case."
+      ]
+    },
+    {
+      "tag": "safety_planning",
+      "patterns": [
+        "How do I leave safely",
+        "I'm afraid to leave my abuser",
+        "How to make a safety plan",
+        "Preparing to escape abuse",
+        "What to take when leaving",
+        "How to hide my location",
+        "Protecting myself from stalking",
+        "Digital safety from abuser",
+        "Safe communication methods",
+        "How to protect my children when leaving",
+        "I'm financially dependent on my abuser",
+        "My abuser threatens suicide if I leave",
+        "Securing important documents",
+        "How to end relationship safely",
+        "What to do if he finds me",
+        "Changing phone numbers safely",
+        "Safety after leaving abuser",
+        "How to protect myself legally",
+        "Emergency escape plan",
+        "When is the safest time to leave"
+      ],
+      "responses": [
+        "Create a safety plan by identifying safe exits, keeping important documents (ID, bank details, birth certificates) accessible, saving money if possible, and identifying safe places to go.",
+        "When preparing to leave, try to take identification, financial documents, medical records, children's documents, court papers, a phone, and essential items. Consider making copies stored with someone trusted.",
+        "For digital safety, create new accounts with secure passwords, check devices for tracking software, adjust privacy settings on social media, and consider using a new phone number that's unlisted.",
+        "If possible, leave when the abuser is not present. Tell only trusted people about your plans. Contact a shelter or helpline in advance to arrange safe accommodation and support.",
+        "After leaving, consider obtaining a protection order. Vary your routines, inform your workplace about security concerns, and use different routes for travel. Keep helpline numbers accessible at all times."
+      ]
+    },
+    {
+      "tag": "evidence_collection",
+      "patterns": [
+        "What evidence do I need",
+        "How to document abuse",
+        "Should I take pictures of injuries",
+        "Saving abusive texts and messages",
+        "How to record threats",
+        "Can I record conversations as evidence",
+        "Will my word be enough in court",
+        "What counts as evidence",
+        "How to preserve digital evidence",
+        "Can witnesses help my case",
+        "Keeping a journal of incidents",
+        "Medical reports as evidence",
+        "What if there's no physical evidence",
+        "Taking screenshots of online abuse",
+        "Do I need witnesses to prove abuse",
+        "How to document emotional abuse",
+        "Can family members testify",
+        "Evidence for restraining order",
+        "How long should I keep evidence",
+        "Will my private messages be made public"
+      ],
+      "responses": [
+        "Document evidence by keeping a detailed journal of incidents with dates and times, saving communications, taking photos of injuries, and getting medical attention that creates records.",
+        "In India, electronic evidence is recognized under the Information Technology Act. Save screenshots, emails, and messages. Audio recordings may be admissible if collected legally under certain circumstances.",
+        "Medical documentation is valuable evidence. Seek medical attention after incidents, tell the doctor about the abuse, and request detailed documentation of injuries and their likely causes.",
+        "Witness statements from people who observed the abuse or its effects can strengthen your case. Keep records of police complaints, even if no immediate action was taken.",
+        "For non-physical abuse, document threats, controlling behaviors, and emotional abuse in a journal. Note the impact on your health, work, and daily functioning, which can support claims of domestic violence."
+      ]
+    },
+    {
+      "tag": "court_process",
+      "patterns": [
+        "What happens in court",
+        "Will I have to face my abuser",
+        "How long do court cases take",
+        "Do I need a lawyer in court",
+        "What questions will they ask me",
+        "Can I give testimony in private",
+        "Will my identity be protected",
+        "What happens during cross-examination",
+        "How to prepare for court",
+        "Can I get protection during the trial",
+        "What if I don't want to testify",
+        "Will they attack my character in court",
+        "What if I don't remember all details",
+        "Bail conditions for abusers",
+        "How to deal with court delays",
+        "What are in-camera proceedings",
+        "Fast track courts for sexual assault",
+        "Will my sexual history be discussed",
+        "Support person during trial",
+        "What if I can't afford court fees"
+      ],
+      "responses": [
+        "In sexual assault cases, Indian courts conduct 'in-camera' proceedings, meaning they're private. You can request additional protective measures like screens between you and the accused.",
+        "Under Indian law, your identity is protected in sexual offense cases. Publishing information that reveals your identity is punishable. The court can also restrict media coverage of proceedings.",
+        "You have the right to free legal representation through the Legal Services Authority. Your lawyer can object to inappropriate questions about your character or sexual history, which are generally prohibited.",
+        "You can request accommodations like giving testimony via video conference, having a support person present, or using a screen to avoid seeing the accused. Fast-track courts are available for sexual violence cases.",
+        "Court procedures for sexual offense cases are designed to be sensitive. Questions about your sexual history are restricted under Section 146 of the Indian Evidence Act, and character evidence is limited."
+      ]
+    },
+    {
+      "tag": "online_harassment",
+      "patterns": [
+        "Someone is posting my private photos",
+        "I'm being harassed online",
+        "Reporting cyberstalking",
+        "Revenge porn laws in India",
+        "Someone created fake profiles of me",
+        "I'm getting threatening messages online",
+        "My intimate images were shared without consent",
+        "Someone is impersonating me online",
+        "Reporting social media harassment",
+        "My ex is threatening to share my photos",
+        "Online sextortion",
+        "Dating app harassment",
+        "How to report obscene content",
+        "Protecting myself online",
+        "How to report to cyber police",
+        "Someone hacked my social media",
+        "Online threats of sexual violence",
+        "Digital security for survivors",
+        "Removing intimate content from internet",
+        "Cyberbullying laws"
+      ],
+      "responses": [
+        "Online harassment is punishable under the IT Act and IPC. You can file a complaint with the local cyber crime cell or through the National Cyber Crime Reporting Portal at cybercrime.gov.in.",
+        "Non-consensual sharing of intimate images ('revenge porn') is punishable under Section 67A of the IT Act and Section 354C of IPC (voyeurism). Document evidence by taking screenshots before blocking.",
+        "Report online harassment to platform administrators first, then to cyber police. Most platforms have reporting mechanisms for harassment, impersonation, and non-consensual intimate images.",
+        "To file a cyber crime complaint, collect evidence like screenshots, URLs, and account information. You can approach the local cyber crime cell or file online through the National Cyber Crime Reporting Portal.",
+        "Protect yourself digitally by changing passwords, enabling two-factor authentication, reviewing privacy settings, and being cautious about sharing personal information or images, even with trusted individuals."
+      ]
+    },
+    {
+      "tag": "stalking",
+      "patterns": [
+        "Someone is following me",
+        "My ex won't leave me alone",
+        "I think I'm being stalked",
+        "What is the punishment for stalking",
+        "Cyberstalking laws",
+        "He keeps showing up at my work",
+        "I get constant unwanted calls",
+        "Someone watches my house",
+        "My ex tracks my location",
+        "Reporting stalking behavior",
+        "I've told him to stop contacting me",
+        "Stalking by colleague",
+        "I feel like I'm being monitored",
+        "Stalker sends gifts I don't want",
+        "They keep creating new accounts to contact me",
+        "How to document stalking",
+        "Restraining order against stalker",
+        "I'm afraid my stalker will hurt me",
+        "Stalking behavior is escalating",
+        "Finding hidden tracking devices"
+      ],
+      "responses": [
+        "Stalking is a criminal offense under Section 354D of the Indian Penal Code. Documentation is crucial—keep a log of all incidents with dates, times, locations, and witnesses if any.",
+        "To report stalking, approach the local police station with your documentation. You can request a protection order that legally prohibits the stalker from contacting or approaching you.",
+        "Cyberstalking falls under both Section 354D of IPC and the IT Act. Save all digital evidence including messages, emails, and social media communications before blocking the person.",
+        "For your safety, vary your routines, inform trusted people about the situation, check your vehicles and electronic devices for tracking, and consider using a different route to work/school.",
+        "If you're being stalked, avoid direct contact with the stalker. Tell them clearly once to stop all communication, then document but don't respond to further attempts, as responses may encourage continuation."
+      ]
+    },
+    {
+      "tag": "victim_blaming",
+      "patterns": [
+        "People say it's my fault",
+        "My family blames me",
+        "They ask why I didn't leave sooner",
+        "Why do people blame the victim",
+        "They say I should have fought harder",
+        "I'm being blamed for what I was wearing",
+        "People ask why I was out late",
+        "They say I led him on",
+        "My community is shaming me",
+        "They question why I was drinking",
+        "I'm blamed for dating him",
+        "People don't believe men can be victims",
+        "My parents say I brought shame to family",
+        "Society thinks I deserved it",
+        "I'm blamed for going to his place",
+        "They say I should have screamed louder",
+        "My husband's family says it's my duty",
+        "My religion says I should forgive",
+        "Friends say I'm overreacting",
+        "I'm starting to believe it was my fault"
+      ],
+      "responses": [
+        "Victim-blaming is never acceptable and is not supported by Indian law. Regardless of what you were wearing, drinking, or where you were, the perpetrator alone is responsible for their actions.",
+        "Indian courts have explicitly rejected victim-blaming arguments. The Supreme Court has stated that a woman's dress, character, or previous sexual history cannot be used to excuse or mitigate sexual violence.",
+        "Nothing you did or didn't do caused the abuse. Abusers choose to abuse, and that choice is entirely their responsibility. Your feelings and experiences are valid regardless of others' opinions.",
+        "Many survivors face similar reactions due to harmful cultural myths. These reactions reflect societal problems, not any failure on your part. You deserve support, not judgment.",
+        "It's common to internalize blame, but abuse is always the perpetrator's responsibility. Connecting with supportive counseling or survivor groups can help counter these harmful messages."
+      ]
+    },
+    {
+      "tag": "financial_support",
+      "patterns": [
+        "Can I get financial help",
+        "Compensation for victims",
+        "I lost my job due to trauma",
+        "I can't afford to leave my abuser",
+        "How to get economic independence",
+        "Financial assistance for survivors",
+        "Victim compensation scheme",
+        "Government aid for abuse victims",
+        "I need money for legal fees",
+        "Financial support for medical bills",
+        "How to get maintenance from spouse",
+        "Funds for relocation after abuse",
+        "I'm financially dependent on my abuser",
+        "Can court order financial support",
+        "Emergency financial assistance",
+        "Financial recovery after abuse",
+        "Job training for survivors",
+        "Scholarship programs for survivors",
+        "Financial counseling after abuse",
+        "Help with housing costs"
+      ],
+      "responses": [
+        "Under the Victim Compensation Scheme, you can receive financial assistance. Apply through the District Legal Services Authority or the court handling your case.",
+        "If you're leaving an abusive spouse, you can apply for maintenance under the Domestic Violence Act, Section 125 of CrPC, or personal laws. You don't need to be divorced to receive maintenance."
+      ]
+    },
+    {
+
+    "tag": "financial_support",
+      "patterns": [
+        "Can I get financial help",
+        "Compensation for victims",
+        "I lost my job due to trauma",
+        "I can't afford to leave my abuser",
+        "How to get economic independence",
+        "Financial assistance for survivors",
+        "Victim compensation scheme",
+        "Government aid for abuse victims",
+        "I need money for legal fees",
+        "Financial support for medical bills",
+        "How to get maintenance from spouse",
+        "Funds for relocation after abuse",
+        "I'm financially dependent on my abuser",
+        "Can court order financial support",
+        "Emergency financial assistance",
+        "Financial recovery after abuse",
+        "Job training for survivors",
+        "Scholarship programs for survivors",
+        "Financial counseling after abuse",
+        "Help with housing costs"
+      ],
+      "responses": [
+        "Under the Victim Compensation Scheme, you can receive financial assistance. Apply through the District Legal Services Authority or the court handling your case.",
+        "If you're leaving an abusive spouse, you can apply for maintenance under the Domestic Violence Act, Section 125 of CrPC, or personal laws. You don't need to be divorced to receive maintenance.",
+        "One-Stop Centers provide temporary financial support for survivors. Additionally, government schemes like Swadhar Greh offer shelter, food, clothing, and vocational training.",
+        "Free legal aid is available through Legal Services Authorities. You can also access free medical care at government hospitals as mandated by Section 357C of the Criminal Procedure Code.",
+        "Some NGOs offer financial assistance, job training, and placement services for survivors. Contact the National or State Commission for Women for referrals to appropriate support services."
+      ]
+    },
+    {
+      "tag": "supporting_others",
+      "patterns": [
+        "My friend was assaulted",
+        "How to help a victim",
+        "My daughter is being abused",
+        "Supporting a family member who was assaulted",
+        "What to say to someone who was abused",
+        "My employee reported harassment",
+        "My child told me about abuse",
+        "How to believe survivors",
+        "My sister won't leave her abuser",
+        "Supporting male survivors",
+        "My friend is blaming herself",
+        "My roommate's boyfriend hits her",
+        "How to report someone else's abuse",
+        "My student disclosed abuse",
+        "What not to say to survivors",
+        "Helping someone make a safety plan",
+        "My mother is being abused",
+        "Friend has abusive parents",
+        "Colleague is being stalked",
+        "Supporting someone through court process"
+      ],
+      "responses": [
+        "Listen without judgment, believe them, and let them know the abuse is not their fault. Avoid pressing for details or suggesting what they 'should' do, as this can remove their sense of control.",
+        "Offer practical support like accompanying them to police or medical appointments, helping research resources, or providing a safe place to stay if needed and if you can do so safely.",
+        "Respect their decisions, even if you don't agree. Abuse often removes a person's autonomy, so supporting their choices can be empowering. Be patient and understand that leaving can be complex and dangerous.",
+        "Help them connect with professional resources like helplines, counselors, and legal aid. The Women's Helpline (1098) and CHILDLINE (1098) can provide guidance on supporting someone effectively.",
+        "Take care of your own wellbeing while supporting others. Secondary trauma is real, and you'll be more helpful if you maintain your own emotional health through self-care and possibly seeking support yourself."
+      ]
+    },
+    {
+      "tag": "cultural_issues",
+      "patterns": [
+        "My community will ostracize me if I report",
+        "Honor killing concerns",
+        "My family wants me to reconcile with abuser",
+        "Religious pressure to stay in marriage",
+        "Caste-based sexual violence",
+        "My parents want me to marry my rapist",
+        "Dowry-related violence",
+        "In-laws abuse concerns",
+        "Cultural barriers to reporting",
+        "Joint family abuse dynamics",
+        "Community pressure to withdraw complaint",
+        "Panchayat wants to handle it internally",
+        "Divorced women stigma",
+        "Religious leaders discourage reporting",
+        "Family honor concerns",
+        "Forced to compromise with abuser",
+        "Marital rape in traditional context",
+        "Cultural expectations for women to suffer silently",
+        "My community doesn't believe in abuse",
+        "Threats of social boycott for reporting"
+      ],
+      "responses": [
+        "Your safety takes priority over social expectations. While cultural pressures are real, Indian law protects you regardless of community norms. Confidential support services can help navigate these challenges.",
+        "Khap panchayats or community councils have no legal authority to resolve abuse cases. Such matters fall under criminal law, and you have the right to approach formal legal channels despite community pressure.",
+        "Honor-based threats are taken seriously by Indian courts. If you face such threats, inform the police immediately. Protection orders can prohibit family members from approaching or threatening you.",
+        "Social welfare organizations like the National and State Commissions for Women can provide specialized support for those facing cultural barriers to safety. Many NGOs offer culturally sensitive support.",
+        "If you're concerned about family pressure, you can request police protection, apply for residence at a shelter, or ask the court for a protection order that specifically addresses family interference."
+      ]
+    },
+    {
+      "tag": "consent_education",
+      "patterns": [
+        "What is consent",
+        "Did I consent if I was drunk",
+        "Can consent be non-verbal",
+        "I didn't say no clearly",
+        "I initially agreed but changed my mind",
+        "Legal definition of consent in India",
+        "Consent in marriage",
+        "I was pressured into saying yes",
+        "I was afraid to say no",
+        "Age of consent in India",
+        "I was tricked into consenting",
+        "What is coercion",
+        "Is it rape if I knew the person",
+        "What is enthusiastic consent",
+        "I froze and couldn't speak",
+        "How to teach consent to children",
+        "Consent when there's a power imbalance",
+        "I was blackmailed into sex",
+        "Withdrawal of consent during act",
+        "I was unconscious"
+      ],
+      "responses": [
+        "In Indian law, consent means voluntary agreement when a person is of sound mind and not intoxicated. Consent obtained through fear, fraud, or misrepresentation is not valid consent.",
+        "Consent must be freely given and can be withdrawn at any time. If you were intimidated, threatened, unconscious, intoxicated, or under pressure, valid consent was not possible.",
+        "The age of consent in India is 18 years. Any sexual activity with a person under 18 is a criminal offense under POCSO Act, regardless of whether the minor appeared to consent.",
+        "Freezing is a common physiological response to trauma. Your inability to say 'no' due to fear or freezing does not constitute consent. Indian courts recognize that absence of resistance doesn't mean consent.",
+        "In marriage, consent is still required for sexual activity. While marital rape has limited recognition, forcing a spouse into sexual acts can be addressed under the Domestic Violence Act as sexual abuse."
+      ]
+    },
+    {
+      "tag": "recovery_healing",
+      "patterns": [
+        "Will I ever heal",
+        "How long does recovery take",
+        "Moving on after abuse",
+        "Rebuilding life after trauma",
+        "Therapy options for trauma",
+        "Finding joy after abuse",
+        "Recovering self-esteem",
+        "Trusting people again",
+        "Healing from childhood abuse",
+        "Trauma anniversary reactions",
+        "Building healthy relationships after abuse",
+        "Dealing with triggers",
+        "Trauma therapy in India",
+        "Spiritual healing after abuse",
+        "Self-care practices for survivors",
+        "Finding meaning after trauma",
+        "Group therapy for survivors",
+        "PTSD treatment options",
+        "Reconnecting with my body",
+        "Forgiveness and healing"
+      ],
+      "responses": [
+        "Recovery is possible and happens at your own pace. Many survivors find that professional trauma-informed therapy, supportive communities, and self-compassion are key elements in healing.",
+        "Trauma therapy approaches like Cognitive Behavioral Therapy (CBT), Eye Movement Desensitization and Reprocessing (EMDR), and Somatic Experiencing can be effective for processing trauma.",
+        "Self-care practices that many survivors find helpful include grounding techniques, mindfulness, physical movement, creative expression, connecting with supportive people, and establishing safety routines.",
+        "Rebuilding trust happens gradually. Start with trusting yourself and your instincts, then practice setting small boundaries with safe people. Professional guidance can help navigate this process.",
+        "Healing isn't linear—there may be setbacks, particularly around anniversaries or triggers. This doesn't mean you're failing; it's a normal part of trauma recovery. Compassion for yourself during difficult times is essential."
+      ]
+    },
+    
+  
+    {
+      "tag": "sexual_harassment_workplace",
+      "patterns": [
+        "My boss keeps making inappropriate comments",
+        "Colleague brushes against me intentionally",
+        "What's the law for workplace harassment",
+        "My supervisor asked me for sexual favors for promotion",
+        "Someone at work shared obscene images with me"
+      ],
+      "responses": [
+        "Sexual harassment at the workplace is covered under both the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 and Section 354A of IPC. This section prescribes punishment up to 3 years imprisonment or fine for unwelcome physical contact, sexually colored remarks, or demanding/requesting sexual favors.",
+        "Under Section 354A of IPC and the POSH Act 2013, you can file a complaint with your workplace Internal Complaints Committee (ICC). Physical contact and advances involving unwelcome and explicit sexual overtures, demanding sexual favors, showing pornography, or making sexually colored remarks all constitute sexual harassment.",
+        "The law mandates that organizations with 10+ employees must have an Internal Complaints Committee. Your complaint must be filed within 3 months of the incident. Besides Section 354A of IPC, harassers can also be charged under Section 509 for insulting the modesty of a woman through words, gestures or acts."
+      ]
+    },
+    {
+      "tag": "stalking",
+      "patterns": [
+        "Someone follows me everywhere",
+        "My ex monitors my social media and shows up where I go",
+        "A person keeps calling and messaging despite being told to stop",
+        "What's the punishment for stalking",
+        "Someone watches my house constantly"
+      ],
+      "responses": [
+        "Stalking is a criminal offense under Section 354D of the Indian Penal Code. It includes following a person, contacting them despite clear disinterest, monitoring electronic communication, or watching/spying on someone. First-time conviction can result in up to 3 years imprisonment and a fine.",
+        "Section 354D of IPC defines stalking as repeatedly following and contacting a person despite clear disinterest, or monitoring digital communication. For repeat offenders, the punishment can extend to 5 years imprisonment with fine. Both physical and cyberstalking are covered under this section.",
+        "To pursue charges under Section 354D (stalking), document all incidents with dates and times, save communications, and report to the police. The offense is cognizable and bailable for first-time offenders, but non-bailable for repeat offenders."
+      ]
+    },
+    {
+      "tag": "voyeurism",
+      "patterns": [
+        "Someone installed a hidden camera in bathroom",
+        "A person took photos of me changing clothes",
+        "Someone is watching me in private spaces",
+        "What's the law against peeping toms",
+        "My private photos were taken without consent"
+      ],
+      "responses": [
+        "Voyeurism is punishable under Section 354C of IPC. It includes watching or capturing images of a woman engaging in a private act where she would expect not to be observed. This carries imprisonment of 1-3 years for first conviction and 3-7 years for subsequent convictions, plus fines.",
+        "Under Section 354C, capturing or sharing images of a woman engaged in a private act without consent is voyeurism. Private acts include circumstances where a woman's genitals, buttocks, or breasts are exposed or covered only in underwear, or she is using a toilet, or she is doing a sexual act not ordinarily done in public.",
+        "If someone has installed hidden cameras or taken images without consent in private spaces, immediately report to police. Section 354C (voyeurism) is cognizable and bailable for first-time offenders, but becomes non-bailable for repeat offenders."
+      ]
+    },
+    {
+      "tag": "rape",
+      "patterns": [
+        "I was forced to have sex against my will",
+        "Someone had intercourse with me when I was unconscious",
+        "What constitutes rape under Indian law",
+        "I was blackmailed into sexual intercourse",
+        "A person used false promises of marriage to have sex with me"
+      ],
+      "responses": [
+        "Rape is defined under Section 375 of IPC as sexual intercourse with a woman against her will, without consent, with consent obtained by coercion or deception, when she's unable to understand the nature of the act, or when she's under 18. Section 376 prescribes punishment of rigorous imprisonment from 10 years to life, plus fine.",
+        "Section 375 of IPC covers rape including instances where consent was obtained by putting a person in fear, under false pretenses like promise of marriage, when the person is intoxicated or unconscious, or unable to communicate consent. Section 376 provides for punishment which can be enhanced for persons in positions of authority.",
+        "Rape cases under Section 375/376 are investigated according to special procedures. Medical examination should be conducted by a female doctor, statement recorded by a female officer, and in-camera trial proceedings. The law prohibits questions about past sexual history during trial."
+      ]
+    },
+    {
+      "tag": "sexual_harassment_public",
+      "patterns": [
+        "A man made lewd gestures at me on the bus",
+        "Someone passed sexual comments at me on the street",
+        "A stranger groped me in a crowded place",
+        "What's the law for harassment in public places",
+        "Someone exposed themselves to me in public"
+      ],
+      "responses": [
+        "Sexual harassment in public places is covered under Section 354A (sexual harassment) and Section 509 (insulting the modesty of a woman) of IPC. Section 354A includes physical contact, unwelcome sexual remarks, or showing pornography, punishable with up to 3 years imprisonment or fine.",
+        "For unwanted touching or groping, Section 354 (assault or criminal force to woman with intent to outrage her modesty) applies, carrying up to 5 years imprisonment. For verbal harassment or gestures, Section 509 applies with punishment of up to 3 years imprisonment plus fine.",
+        "Public sexual harassment is cognizable, allowing police to arrest without warrant. Section 354 addresses unwanted physical contact, while Section 509 covers words, sounds, gestures, or objects intended to insult a woman's modesty. Documentation and witness statements strengthen such cases."
+      ]
+    },
+    {
+      "tag": "domestic_violence_physical",
+      "patterns": [
+        "My husband beats me regularly",
+        "My partner pushed and injured me",
+        "What laws protect me from spousal abuse",
+        "My in-laws physically hurt me",
+        "I'm experiencing violence at home from family members"
+      ],
+      "responses": [
+        "Physical domestic violence is addressed under Section 498A of IPC (cruelty by husband or relatives) with punishment up to 3 years plus fine. Additionally, the Protection of Women from Domestic Violence Act, 2005 provides civil remedies including protection orders, residence orders, and maintenance.",
+        "Under Section 498A, cruelty includes any willful conduct likely to drive a woman to suicide or cause grave injury. The Domestic Violence Act allows you to file for immediate protection orders and can cover physical, sexual, verbal, emotional, and economic abuse by any member of the shared household.",
+        "Besides Section 498A, domestic violence causing injuries can also be charged under IPC sections for hurt (323), grievous hurt (325), or criminal intimidation (506). Police are required to register an FIR for domestic violence complaints and cannot refuse based on jurisdiction."
+      ]
+    },
+    {
+      "tag": "acid_attack",
+      "patterns": [
+        "Someone threw acid on me",
+        "I'm a victim of acid violence",
+        "What's the punishment for acid attacks",
+        "Laws against acid throwing in India",
+        "Compensation for acid attack survivors"
+      ],
+      "responses": [
+        "Acid attacks are specifically addressed under Section 326A of IPC, carrying punishment of minimum 10 years imprisonment extendable to life, plus fine. Section 326B covers attempted acid attacks with minimum 5 years imprisonment extendable to 7 years, plus fine.",
+        "As an acid attack survivor, you're entitled to free first aid and medical treatment under Section 357C of CrPC. The Supreme Court has mandated minimum compensation of ₹3 lakhs for acid attack victims under victim compensation schemes, and ordered regulation of acid sales.",
+        "Acid attack cases are tried through fast-track courts. Besides Section 326A, attackers can be charged under Section 307 (attempted murder) or Section 325 (grievous hurt). Immediate medical documentation and police complaint are essential for prosecution."
+      ]
+    },
+    {
+      "tag": "sexual_assault_child",
+      "patterns": [
+        "A child was inappropriately touched",
+        "Someone sexually abused my child",
+        "What's the POCSO Act",
+        "Laws against child sexual abuse in India",
+        "A teacher behaved inappropriately with students"
+      ],
+      "responses": [
+        "Child sexual abuse is covered under the POCSO Act 2012. Under Section 4 (penetrative sexual assault), punishment is 7-life imprisonment plus fine. Section 8 covers sexual assault (non-penetrative) with 3-5 years imprisonment. Section 12 addresses sexual harassment with up to 3 years imprisonment.",
+        "The POCSO Act is comprehensive legislation specifically for minors under 18. It includes provisions for child-friendly courts, recording statements, special procedures, and mandatory reporting. Any sexual activity with a minor, even if allegedly consensual, is an offense under POCSO.",
+        "If a child reports abuse, immediately contact police or CHILDLINE (1098). Under POCSO, failure to report child abuse is punishable. The law includes aggravated categories with enhanced punishment when the abuser is in a position of trust or authority like teachers or family members."
+      ]
+    },
+    {
+      "tag": "sexual_assault_medical_examination",
+      "patterns": [
+        "How is medical examination done after sexual assault",
+        "What does a rape kit test for",
+        "Rights during medical examination after assault",
+        "Can I refuse parts of medical examination",
+        "Is two-finger test legal in India"
+      ],
+      "responses": [
+        "Medical examination after sexual assault should follow MoHFW guidelines. The two-finger test is illegal as per Supreme Court directives. Section 164A of CrPC governs the procedure, requiring consent, examination by female doctor when possible, and detailed documentation of injuries and evidence.",
+        "During medical examination, you have the right to consent, privacy, and dignity. Under Section 357C of CrPC, all hospitals (public or private) must provide free immediate medical care to sexual assault survivors. You can have a support person present during examination.",
+        "Medical examination collects evidence like injuries, DNA samples, and signs of struggle. The Supreme Court has banned the two-finger test, considering it violative of dignity. The examination should focus on providing treatment and collecting forensic evidence without re-traumatization."
+      ]
+    },
+    {
+      "tag": "sexual_extortion",
+      "patterns": [
+        "Someone is threatening to release my private photos",
+        "I'm being blackmailed with intimate images",
+        "What to do about sexual blackmail",
+        "Someone demanding sexual favors under threats",
+        "Sextortion laws in India"
+      ],
+      "responses": [
+        "Sexual extortion or sextortion is punishable under multiple IPC sections: Section 383/384 (extortion) with up to 3 years imprisonment, Section 354A (sexual harassment) if demanding sexual favors, Section 354C if private images were obtained through voyeurism, and Section 509 for insulting modesty.",
+        "If the blackmail involves digital/electronic means, Section 66E of IT Act (violation of privacy) applies with up to 3 years imprisonment or fine up to ₹2 lakhs. Section 67/67A covers publishing/transmitting obscene/sexually explicit material with up to 5-7 years imprisonment plus fine.",
+        "Report sextortion to the local police or cyber crime cell. Document all communications without responding to demands. Don't send money or comply with demands as this often leads to continued extortion. The complaint can be filed under multiple sections including IPC 507 for criminal intimidation by anonymous communication."
+      ]
+    },
+    {
+      "tag": "trafficking",
+      "patterns": [
+        "I suspect human trafficking for sexual exploitation",
+        "Someone promised a job but forced into sexual work",
+        "Laws against sex trafficking in India",
+        "How to report suspected trafficking",
+        "A minor was trafficked for sexual purposes"
+      ],
+      "responses": [
+        "Human trafficking is punishable under Section 370 of IPC with 7-10 years imprisonment plus fine. For trafficking of more than one person, the term increases to 10 years to life. For minors, the minimum sentence is 10 years extendable to life imprisonment with fine.",
+        "The Immoral Traffic (Prevention) Act addresses sex trafficking specifically. Section 370A punishes those who engage trafficked persons for sexual exploitation with 3-5 years imprisonment for adults and 5-7 years for minor victims, regardless of consent.",
+        "Report suspected trafficking to the Anti-Human Trafficking Unit in your district, local police, or the helpline 1098. Indicators include restricted movement, signs of physical abuse, poor living conditions, or inability to speak freely. The 2018 amendments to IPC strengthened anti-trafficking provisions."
+      ]
+    },
+    {
+      "tag": "sexual_harassment_online",
+      "patterns": [
+        "I'm receiving obscene messages online",
+        "Someone is harassing me on social media",
+        "What laws cover online sexual harassment",
+        "A person is sending me unwanted sexual content",
+        "Someone created a fake profile with my photos"
+      ],
+      "responses": [
+        "Online sexual harassment is covered under IT Act Section 67 (publishing/transmitting obscene material) with up to 3 years imprisonment and ₹5 lakhs fine, and Section 67A for sexually explicit material with up to 5 years and ₹10 lakhs fine for first conviction.",
+        "IPC Section 354A applies to online sexual harassment including sexually colored remarks. Section 354D covers cyberstalking. Section 509 addresses words, gestures or acts intended to insult a woman's modesty, which includes electronic communication with up to 3 years imprisonment.",
+        "Report online harassment to platform administrators first, then to the cyber crime portal (cybercrime.gov.in) or local cyber crime cell. Preserve evidence by taking screenshots before blocking. Creating fake profiles can be charged under IT Act Section 66C (identity theft) and 66D (cheating by personation)."
+      ]
+    },
+    {
+      "tag": "sexual_assault_marital",
+      "patterns": [
+        "My husband forces me to have sex",
+        "Is marital rape recognized in India",
+        "My spouse sexually abuses me",
+        "Legal recourse for forced sex in marriage",
+        "Can I report sexual violence by my husband"
+      ],
+      "responses": [
+        "While the marital rape exemption still exists in Section 375 of IPC, forced sexual acts in marriage can be addressed under the Protection of Women from Domestic Violence Act, 2005 as sexual abuse. This allows for civil remedies including protection orders and compensation.",
+        "Sexual violence in marriage can be reported under Section 498A of IPC (cruelty by husband or relatives). Additionally, if the wife is under 18, the marital rape exemption doesn't apply. If separated, forced sexual acts are punishable under Section 376B with 2-7 years imprisonment.",
+        "The Domestic Violence Act recognizes sexual abuse including forced sexual acts within marriage. You can approach a Protection Officer, registered service provider, or file directly in court for protection and residence orders. Medical documentation of injuries strengthens such cases."
+      ]
+    },
+    {
+      "tag": "sexual_assault_disabled",
+      "patterns": [
+        "A person with disability was sexually assaulted",
+        "Laws protecting disabled persons from sexual abuse",
+        "Special provisions for disabled victims",
+        "Someone took advantage of mental disability",
+        "Reporting sexual assault of a disabled person"
+      ],
+      "responses": [
+        "Sexual assault against persons with disabilities is addressed with enhanced punishment under Section 376(2) of IPC, including minimum 10 years to life imprisonment plus fine. The Rights of Persons with Disabilities Act, 2016 also provides additional safeguards.",
+        "For victims with disabilities, special provisions exist under criminal procedure. The statement should be recorded by a judicial magistrate with assistance of a special educator or interpreter. The victim has the right to assistance throughout the legal process.",
+        "If a person with disabilities is assaulted, they're entitled to accessible information about procedure, barrier-free access to police stations/courts, and reasonable accommodation during investigation/trial. Report to the police or National Trust helpline 1800-11-2013 for specialized assistance."
+      ]
+    },
+    {
+      "tag": "gang_rape",
+      "patterns": [
+        "I was assaulted by multiple people",
+        "What is the punishment for gang rape",
+        "Laws regarding group sexual assault",
+        "Multiple people were involved in the attack",
+        "How to report assault by a group"
+      ],
+      "responses": [
+        "Gang rape is specifically addressed under Section 376D of IPC, which prescribes rigorous imprisonment for 20 years to life, plus fine for all persons in a group who commit rape on the same woman. The fine must be reasonable to meet medical expenses and rehabilitation of the victim.",
+        "In gang rape cases, each person in the group is liable for the offense regardless of who actually committed the rape, if they acted with common intention. Special procedures exist for investigation, including female officer recording statement and expedited trial.",
+        "Gang rape cases are tried in fast-track courts. Medical examination should be conducted immediately to collect evidence. The Criminal Law Amendment Act 2013 significantly enhanced punishment for gang rape following the 2012 Delhi case."
+      ]
+    },
+    {
+      "tag": "sexual_assault_elderly",
+      "patterns": [
+        "An elderly woman was sexually assaulted",
+        "Laws protecting senior citizens from sexual violence",
+        "My elderly mother was abused",
+        "Special provisions for old age victims",
+        "Reporting sexual assault of older persons"
+      ],
+      "responses": [
+        "Sexual assault against elderly women carries enhanced punishment under Section 376(2) of IPC, with minimum 10 years imprisonment extendable to life plus fine. The Maintenance and Welfare of Parents and Senior Citizens Act provides additional protection from abuse.",
+        "Elderly victims are entitled to special procedures during investigation and trial, including home visits for recording statements if mobility is an issue, medical examination accommodating age-related needs, and priority in court proceedings.",
+        "For elderly victims, report to local police or the Elder Helpline at 1090/14567. Given potential vulnerability, courts typically take a sensitive approach to elderly victims, often allowing video testimony and relaxing procedural requirements."
+      ]
+    },
+    {
+      "tag": "digital_image_abuse",
+      "patterns": [
+        "My intimate photos were shared without consent",
+        "Someone posted my private pictures online",
+        "Revenge porn laws in India",
+        "What to do if private images are circulated",
+        "My ex is threatening to share intimate photos"
+      ],
+      "responses": [
+        "Non-consensual sharing of intimate images is punishable under Section 67A of IT Act with up to 5 years imprisonment and ₹10 lakhs fine for first conviction. If the images were obtained through voyeurism, Section 354C of IPC also applies with 1-3 years imprisonment for first offense.",
+        "Report non-consensual intimate image sharing to the cyber crime portal (cybercrime.gov.in) or local cyber crime cell immediately. Section 66E of IT Act (violation of privacy) carries up to 3 years imprisonment or fine up to ₹2 lakhs for capturing/publishing private images.",
+        "If someone threatens to share intimate images, it constitutes criminal intimidation under Section 506 of IPC. Preserve evidence like messages or emails containing threats. Platforms are required to remove such content when reported under IT Rules 2021."
+      ]
+    },
+    {
+      "tag": "sexual_harassment_educational",
+      "patterns": [
+        "A professor is harassing students",
+        "Sexual misconduct in educational institutions",
+        "A teacher demanded sexual favors for grades",
+        "What laws protect students from harassment",
+        "Reporting sexual harassment in college"
+      ],
+      "responses": [
+        "Sexual harassment in educational institutions is covered under Section 354A of IPC and the UGC (Prevention, Prohibition and Redressal of Sexual Harassment of Women Employees and Students in Higher Educational Institutions) Regulations, 2015, requiring Internal Complaints Committees.",
+        "Educational institutions must have grievance redressal mechanisms. Under Section 354A, a teacher demanding sexual favors faces up to 3 years imprisonment. For POCSO-applicable cases (students under 18), enhanced punishment applies under Section 5/6 for position of trust or authority.",
+        "Report to the institution's ICC, which must complete inquiry within 90 days. If dissatisfied, approach the UGC or education ministry. Sexual harassment by teachers of minor students carries punishment of 5-7 years under POCSO Section 11/12, and 10 years to life under Section 5/6 if aggravated."
+      ]
+    },
+    {
+      "tag": "consent_related",
+      "patterns": [
+        "What legally constitutes consent in India",
+        "If I was drunk, could I consent",
+        "Is consent valid if obtained through deception",
+        "I initially said yes but changed my mind",
+        "Can minors consent to sexual activity"
+      ],
+      "responses": [
+        "Under Section 375 of IPC, consent means an unequivocal voluntary agreement when a woman communicates willingness to participate in a specific sexual act. Consent obtained through coercion, misrepresentation, fear, or intoxication is not valid.",
+        "Consent given under intoxication is not valid consent under Section 375. Similarly, consent obtained through fraud (like false promise of marriage when there was no intent to marry) is not legally recognized consent. Minors under 18 cannot legally consent to sexual activity.",
+        "Consent can be withdrawn at any time, even during the act. Continuing after consent is withdrawn constitutes rape under Section 375. Silence does not imply consent, and previous relationship or consent to one act doesn't imply consent to subsequent acts."
+      ]
+    },
+    {
+      "tag": "dalit_tribal_violence",
+      "patterns": [
+        "Sexual violence against SC/ST woman",
+        "Caste-based sexual assault",
+        "Atrocities against tribal women",
+        "Special laws for Dalit victims of sexual violence",
+        "Reporting sexual assault with caste angle"
+      ],
+      "responses": [
+        "Sexual violence against SC/ST women is additionally covered under the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989, with minimum punishment of 5 years extendable to life imprisonment plus fine when the victim belongs to SC/ST community.",
+        "The SC/ST Act provides special courts, special public prosecutors, and enhanced punishment. Section 3(1)(w) specifically addresses sexually exploiting SC/ST women, and Section 3(2)(v) covers offenses under IPC punishable with 10+ years when committed against SC/ST persons.",
+        "For SC/ST victims, reports can be filed at regular police stations and additionally under the SC/ST Act. Compensation is available under both victim compensation schemes and specific relief under the SC/ST Act. Denial of police to register such cases is itself an offense."
+      ]
+    },
+    {
+      "tag": "custodial_violence",
+      "patterns": [
+        "Sexual assault by police officer",
+        "Abuse in prison or custody",
+        "Custodial rape laws",
+        "Sexual violence by person in authority",
+        "Assault while in institutional care"
+      ],
+      "responses": [
+        "Custodial rape/sexual assault is covered under Section 376(2) of IPC with enhanced punishment of 10 years to life imprisonment plus fine. This applies to police officers, public servants, jail/remand home/custody staff, or management/staff of hospitals.",
+        "Section 376C covers sexual intercourse by person in authority or in a fiduciary relationship, carrying 5-10 years imprisonment. For custodial violence, courts typically take severe view and often award compensation under Article 21 for violation of fundamental rights.",
+        "To report custodial violence, approach the State or National Human Rights Commission, magistrate directly, or higher police authorities. Special investigation protocols exist for custodial violence allegations, typically requiring investigation by police officers of senior rank."
+      ]
+    },
+    {
+      "tag": "sexual_violence_conflict",
+      "patterns": [
+        "Sexual violence during riots or conflicts",
+        "Assault during communal violence",
+        "Sexual crimes by armed forces",
+        "Mass sexual violence incidents",
+        "Laws for conflict-related sexual violence"
+      ],
+      "responses": [
+        "Sexual violence during conflicts is covered under regular IPC provisions including Section 376 (rape) with enhanced punishment. For systematic or widespread attacks, charges can include Section 376E for repeat offenders with life imprisonment or death penalty.",
+        "For sexual violence by armed forces in disturbed areas, reporting complications exist due to Armed Forces Special Powers Act requiring sanction for prosecution. However, the Supreme Court has clarified that there's no immunity for sexual violence even in conflict areas.",
+        "Mass sexual violence during riots can be prosecuted under Section 376D (gang rape) even for presence in the mob. The courts have recognized command responsibility in cases of mass sexual violence, holding superior officers accountable for acts of subordinates."
+      ]
+    },
+    {
+      "tag": "hate_crime_sexual",
+      "patterns": [
+        "Sexual assault based on religion",
+        "Targeted sexual violence due to identity",
+        "Hate-motivated sexual crimes",
+        "Sexual assault based on sexual orientation",
+        "Targeted abuse of minorities"
+      ],
+      "responses": [
+        "While India doesn't have specific hate crime legislation, sexual violence targeting specific communities can be prosecuted under regular IPC sections with courts considering motivation during sentencing. Section 153A can additionally apply for promoting enmity between groups.",
+        "Sexual violence targeting religious, ethnic, or other minorities follows standard sexual offense provisions under IPC. However, if propaganda or statements were made promoting hatred alongside the violence, Section 153A and 153B can apply with up to 3 years imprisonment.",
+        "For reporting sexual violence with hate crime elements, document any slurs, statements, or specific targeting evidence. Though not formally recognized as aggravating in law, courts have considered targeting of vulnerable minorities as relevant during sentencing."
+      ]
+    },
+    {
+      "tag": "forced_marriage",
+      "patterns": [
+        "I was forced to marry against my will",
+        "Laws against forced marriage",
+        "My family is forcing me to marry",
+        "What is the punishment for forced marriage",
+        "Help for victims of marriage coercion"
+      ],
+      "responses": [
+        "Forced marriage is punishable under Section 366 of IPC (kidnapping/abducting a woman to compel her marriage) with up to 10 years imprisonment plus fine. Section 496 addresses fraudulent marriage ceremonies with up to 7 years imprisonment.",
+        "Child marriage is prohibited under the Prohibition of Child Marriage Act, 2006. Forced marriages often involve multiple offenses including Section 340 (wrongful confinement), Section 323/324 (causing hurt), Section 506 (criminal intimidation), or Section 351/352 (criminal force).",
+        "If facing threat of forced marriage, approach the local police, Protection Officer under Domestic Violence Act, Child Welfare Committee (for minors), or helplines like 181 (Women's Helpline) or 1098 (CHILDLINE for minors)."
+      ]
+    },
+    {
+      "tag": "dating_violence",
+      "patterns": [
+        "My boyfriend/girlfriend is abusive",
+        "Dating violence laws in India",
+        "My partner assaulted me but we're not married",
+        "Legal protection in non-marital relationships",
+        "Rights in live-in relationships"
+      ],
+      "responses": [
+        "Dating violence falls under general IPC provisions including Section 354 (assault or criminal force to woman with intent to outrage modesty) with up to 5 years imprisonment, and Section 323 (voluntarily causing hurt) with up to 1 year imprisonment.",
+        "The Supreme Court has extended domestic violence protection to live-in relationships under the Protection of Women from Domestic Violence Act, 2005. This allows for protection orders, residence orders, and compensation even without marriage.",
+        "For dating violence, criminal provisions like Section 354A (sexual harassment), 354D (stalking), 506 (criminal intimidation), or 509 (insulting modesty) apply based on the nature of abuse. Evidence collection through messages, witnesses, or medical documentation is important."
+      ]
+    },
+    {
+      "tag": "reproductive_coercion",
+      "patterns": [
+        "My partner forced me to continue/terminate pregnancy",
+        "Forced sterilization or contraception",
+        "Partner tampered with birth control",
+        "Reproductive rights violations",
+        "Coerced reproductive decisions"
+      ],
+      "responses": [
+        "Reproductive coercion can be addressed under the Protection of Women from Domestic Violence Act, 2005 as a form of physical or emotional abuse. Forcing abortion against will is specifically punishable under Section 313 of IPC with up to life imprisonment.",
+        "Forced sterilization is an actionable medical negligence claim and violates Article 21 right to bodily autonomy. Under Medical Termination of Pregnancy Act, a woman's consent is mandatory for abortion, and performing one without consent is criminal.",
+        "Tampering with contraception can constitute fraud and may be addressed under domestic violence provisions. In cases of marital reproductive coercion, courts have recognized it as cruelty under Section 498A in some instances."
+      ]
+    },
+    {
+      "tag": "criminal_intimidation",
+      "patterns": [
+        "Someone threatened sexual violence",
+        "I received rape threats",
+        "Laws against threatening sexual harm",
+        "Person said they would sexually assault me",
+        "How to report threats of sexual nature"
+      ],
+      "responses": [
+        "Threats of sexual violence constitute criminal intimidation under Section 506 of IPC with imprisonment up to 2 years or fine or both. If the threat is to cause death, grievous hurt, or destruction of property, punishment extends to 7 years.",
+        "For anonymous threats, Section 507 applies with up to 2 years additional imprisonment. Threats of sexual nature can also fall under Section 509 (insulting the modesty of a woman) with up to 3 years imprisonment plus fine.",
+        "Document all threatening communications. Threats online can be reported to cybercrime.gov.in or local cyber cells. Section 354D (stalking) may apply if threats are recurring. Police are required to register FIR for criminal intimidation complaints."
+      ]
+    },
+    {
+      "tag": "dowry_related",
+      "patterns": [
+        "Sexual violence related to dowry demands",
+        "In-laws abuse over insufficient dowry",
+        "Husband assaults me for more dowry",
+        "Sexual abuse linked to dowry harassment",
+        "Laws connecting dowry and sexual violence"
+      ],
+      "responses": [
+        "Dowry-related sexual violence is covered under Section 498A of IPC (cruelty by husband or relatives) with up to 3 years imprisonment. Section 304B addresses dowry death with minimum 7 years extendable to life imprisonment if death occurs within 7 years of marriage.",
+        "The Dowry Prohibition Act, 1961 criminalizes demanding, giving, or taking dowry with imprisonment up to 5 years and fine. When sexual abuse occurs alongside dowry harassment, multiple charges including Section 376 (rape) or 354 (outraging modesty) can be applied.",
+        "Report dowry-related violence to the women's cell of police stations, protection officers under Domestic Violence Act, or the dedicated Dowry Prohibition Officers. Keep evidence of dowry demands through recorded conversations, witnesses, or written communications."
+      ]
+    },
+    {
+      "tag": "honor_based_violence",
+      "patterns": [
+        "Sexual violence as honor punishment",
+        "Forced sexual acts as community punishment",
+        "Honor killings after sexual assault",
+        "Khap panchayat ordered sexual violence",
+        "Community-sanctioned sexual harm"
+      ],
+      "responses": [
+        "Honor-based sexual violence is illegal under regular IPC provisions. Additionally, Section 326B addresses forced disrobing with 3-7 years imprisonment. The Supreme Court has declared khap panchayats ordering violence as illegal with severe punishment.",
+        "Honor killings following sexual relationships are addressed under murder provisions (Section 302) with death or life imprisonment. The Supreme Court has issued guidelines for protection from honor-based crimes in Shakti Vahini vs. Union of India.",
+        "Report honor-based violence to District Magistrate or Superintendent of Police immediately. Courts have ordered special protection measures including safe houses for potential victims. Any community assembly ordering punitive sexual violence is illegal and punishable."
+      ]
+    },
+    {
+      "tag": "sexual_violence_identity",
+      "patterns": [
+        "Sexual violence against transgender persons",
+        "Assault based on gender identity",
+        "Laws protecting LGBTQ+ from sexual violence",
+        "Sexual violence against non-binary individuals",
+        "Sexual assault of gender non-conforming person"
+      ],
+      "responses": [
+        "The Transgender Persons (Protection of Rights) Act, 2019 specifically addresses sexual abuse against transgender persons with punishment of 6 months to 2 years with fine. Regular IPC provisions apply.."]
+      }
+    ]
+  }
